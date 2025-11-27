@@ -51,13 +51,13 @@ export default function HeroCarousel() {
             index === i ? "opacity-100" : "opacity-0"
           }`}
         >
-          <Image
+          {/* <Image
             src={slide.image}
             alt="hero"
             fill
             priority
             className="object-cover scale-105 brightness-[0.65] mix-blend-overlay"
-          />
+          /> */}
 
           {/* Darken Layer */}
           <div className="absolute inset-0 bg-black/50 backdrop-blur-[1px]" />

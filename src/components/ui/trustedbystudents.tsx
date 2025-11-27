@@ -18,7 +18,7 @@ export default function TrustedByStudents() {
       value: "14000+",
       label: "Video Lectures",
       bg: "bg-[#D9EEFF]",
-      img: "/readingcomputer.png",
+      img: "/readingComputer.png",
     },
     {
       value: "80000+",
