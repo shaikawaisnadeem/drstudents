@@ -14,6 +14,7 @@ export default function ScrollPopupWrapper() {
       if (totalHeight > 0) {
         const percentage = (scrolled / totalHeight) * 100;
 
+        // Show after 40%
         if (percentage >= 100 && !showPopup) {
           setShowPopup(true);
         }

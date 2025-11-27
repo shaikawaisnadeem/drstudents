@@ -1,20 +1,37 @@
-export default function LoginPopup() {
+"use client";
+
+interface LoginPopupProps {
+  onClose?: () => void;
+}
+
+export default function LoginPopup({ onClose }: LoginPopupProps) {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/30 backdrop-blur-xs z-50">
 
-      <div className="
-        bg-white 
-        p-8 
-        rounded-2xl 
-        shadow-xl 
-        w-[90%] 
-        max-w-md 
-        flex 
-        flex-col 
-        items-center 
-        gap-6
-      ">
+      {/* Close Button */}
+      {onClose && (
+        <button
+          onClick={onClose}
+          className="absolute top-6 right-6 text-white text-3xl font-bold hover:text-gray-300 transition"
+        >
+          ×
+        </button>
+      )}
 
+      <div
+        className="
+          bg-white 
+          p-8 
+          rounded-2xl 
+          shadow-xl 
+          w-[90%] 
+          max-w-md 
+          flex 
+          flex-col 
+          items-center 
+          gap-6
+        "
+      >
         <h1 className="font-poppins text-3xl font-semibold text-center">
           Join Our Community
         </h1>
@@ -53,11 +70,11 @@ export default function LoginPopup() {
         >
           Login
         </button>
-    <p className="text-center text-sm text-black/60">
-        Get exclusive updates, free mentorship resources, and early access to test series.
-    </p>
-      </div>
 
+        <p className="text-center text-sm text-black/60">
+          Get exclusive updates, free mentorship resources, and early access to test series.
+        </p>
+      </div>
     </div>
   );
 }
