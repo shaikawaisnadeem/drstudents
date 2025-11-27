@@ -48,7 +48,7 @@ export function QuickLinks() {
     { name: "Top Colleges", href: "/top-colleges" },
     // { name: "Medical", href: "/medical" },
     { name: "Test Series", href: "/test-series" },
-    // { name: "Study With Us", href: "/study-with-us" },
+    { name: "Study With Us", href: "/study-with-us" },
     { name: "Abroad", href: "/abroad" },
   ];
 
