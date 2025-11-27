@@ -47,10 +47,9 @@ export function QuickLinks() {
     { name: "Home", href: "/" },
     { name: "Top Colleges", href: "/top-colleges" },
     // { name: "Medical", href: "/medical" },
-    { name: "Engineering", href: "/engineering" },
+    { name: "Test Series", href: "/test-series" },
+    // { name: "Study With Us", href: "/study-with-us" },
     { name: "Abroad", href: "/abroad" },
-    { name: "Exams", href: "/exams" },
-    { name: "Blogs", href: "/blogs" },
   ];
 
   return (
@@ -75,9 +74,9 @@ export function MentorshipLinks() {
 
   const items = [
     { name: "Join Mentorship", href: "/join-our-mentorship" },
-    { name: "Our Consultancy", href: "/consultancy" },
+    // { name: "Our Consultancy", href: "/consultancy" },
     { name: "Study With Us", href: "/study-with-us" },
-    { name: "Resources", href: "/resources" },
+    // { name: "Resources", href: "/resources" },
   ];
 
   return (
