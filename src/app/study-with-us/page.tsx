@@ -19,7 +19,6 @@ import CoursesSection from "@/components/ui/coursesSection";
 
 
 
-// ================== MAIN PAGE ==================
 export default function StudyWithUs() {
 
 

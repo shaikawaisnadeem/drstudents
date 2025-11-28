@@ -17,6 +17,7 @@ export const Navbar = () => {
             src="/drstudents.png"
             alt="Logo"
             width={85}
+            priority
             height={85}
             className="rounded-md object-cover w-10 h-10 sm:w-12 sm:h-12 lg:w-[85px] lg:h-[85px]"
           />
@@ -55,6 +56,7 @@ export const Navbar = () => {
               <div className="flex items-center gap-3">
                 <Image
                   src="/drstudents.png"
+                  priority
                   alt="Logo"
                   width={48}
                   height={48}

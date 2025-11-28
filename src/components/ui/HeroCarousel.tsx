@@ -43,7 +43,6 @@ export default function HeroCarousel() {
   return (
     <section className="relative h-[60vh] w-full flex items-center justify-center overflow-hidden font-poppins">
 
-      {/* SLIDE IMAGES */}
       {slides.map((slide, i) => (
         <div
           key={i}
@@ -59,12 +58,10 @@ export default function HeroCarousel() {
             className="object-cover scale-105 brightness-[0.65] mix-blend-overlay"
           /> */}
 
-          {/* Darken Layer */}
           <div className="absolute inset-0 bg-black/50 backdrop-blur-[1px]" />
         </div>
       ))}
 
-      {/* TEXT */}
       <div className="relative z-20 text-center px-4">
         <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
           {slides[index].title}
@@ -74,7 +71,6 @@ export default function HeroCarousel() {
         </p>
       </div>
 
-      {/* LEFT ARROW */}
       <button
         onClick={prevSlide}
         className="absolute left-6 z-30 p-3 bg-black/40 backdrop-blur-md rounded-full hover:bg-black/70 transition"
@@ -82,7 +78,6 @@ export default function HeroCarousel() {
         <FiChevronLeft size={28} className="text-white" />
       </button>
 
-      {/* RIGHT ARROW */}
       <button
         onClick={nextSlide}
         className="absolute right-6 z-30 p-3 bg-black/40 backdrop-blur-md rounded-full hover:bg-black/70 transition"
@@ -90,7 +85,6 @@ export default function HeroCarousel() {
         <FiChevronRight size={28} className="text-white" />
       </button>
 
-      {/* DOTS */}
       <div className="absolute bottom-6 z-30 flex gap-3">
         {slides.map((_, i) => (
           <div

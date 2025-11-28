@@ -32,6 +32,7 @@ export default function AbroadHero() {
             width={350}
             height={350}
             alt="Globe"
+            priority
             className="drop-shadow-xl"
           />
         </div>

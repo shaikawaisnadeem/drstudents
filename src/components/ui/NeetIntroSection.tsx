@@ -20,7 +20,7 @@ export default function NeetIntroSection() {
 
         <div className="bg-[#B9F6E9] p-6 rounded-xl flex flex-col relative shadow-md">
           <div className="flex items-center justify-between">
-            <Image src="/paperpen.png" width={50} height={50} alt="test" className="rounded-full" />
+            <Image src="/paperpen.png" width={50} height={50} priority alt="test" className="rounded-full" />
             <span className="text-xl font-light">›</span>
           </div>
 
@@ -32,7 +32,7 @@ export default function NeetIntroSection() {
 
         <div className="bg-[#FEC8C8] p-6 rounded-xl flex flex-col relative shadow-md">
           <div className="flex items-center justify-between">
-            <Image src="/learning.png" width={100} height={100} alt="youtube" className="rounded-full" />
+            <Image src="/learning.png" width={100} height={100} priority alt="youtube" className="rounded-full" />
             <span className="text-xl font-light">›</span>
           </div>
 

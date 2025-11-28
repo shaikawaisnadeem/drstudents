@@ -13,7 +13,6 @@ export default function WhyChoose() {
           Trusted mentors and verified resources for your academic success.
         </p>
 
-        {/* Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-6">
 
           <WhyChooseDoctor

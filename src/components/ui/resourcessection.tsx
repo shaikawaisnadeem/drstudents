@@ -15,7 +15,7 @@ export default function ResourcesSection() {
 
           <div className="bg-white shadow-md rounded-xl border overflow-hidden">
             <div className="bg-[#d7ddf3] p-10 flex justify-center">
-              <Image src="/bookopen.png" alt="notes" width={150} height={150} />
+              <Image src="/bookopen.png" alt="notes" priority width={150} height={150} />
             </div>
 
             <div className="p-5 text-left">
@@ -34,7 +34,7 @@ export default function ResourcesSection() {
 
           <div className="bg-white shadow-md rounded-xl border overflow-hidden">
             <div className="bg-[#c2e9e8] p-10 flex justify-center">
-              <Image src="/flask.png" alt="planner" width={150} height={150} />
+              <Image src="/flask.png" alt="planner" priority width={150} height={150} />
             </div>
 
             <div className="p-5 text-left">
@@ -53,7 +53,7 @@ export default function ResourcesSection() {
 
           <div className="bg-white shadow-md rounded-xl border overflow-hidden">
             <div className="bg-[#f6e9ae] p-10 flex justify-center">
-              <Image src="/bulb.png" alt="idea" width={150} height={150} />
+              <Image src="/bulb.png" alt="idea" priority width={150} height={150} />
             </div>
 
             <div className="p-5 text-left">

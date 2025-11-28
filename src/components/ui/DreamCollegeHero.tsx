@@ -48,6 +48,7 @@ export default function CollegeHeroSection() {
             src="/degreecap.png"
             alt="graduation"
             width={600} 
+            priority
             height={400}
             className="opacity-90 object-contain w-full max-w-xs md:max-w-sm"
           />

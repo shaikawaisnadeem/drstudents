@@ -32,7 +32,6 @@ export default function TrustedByStudents() {
     <section className="py-20 bg-white font-poppins">
       <div className="max-w-7xl mx-auto px-6 text-center">
 
-        {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-semibold">
           A Platform Trusted by Students
         </h2>
@@ -41,7 +40,6 @@ export default function TrustedByStudents() {
           results with numbers!
         </p>
 
-        {/* Big Cards */}
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {items.map((item, i) => (
             <div
@@ -57,6 +55,7 @@ export default function TrustedByStudents() {
                 <Image
                   src={item.img}
                   alt={item.label}
+                  priority
                   fill
                   className="object-contain"
                 />

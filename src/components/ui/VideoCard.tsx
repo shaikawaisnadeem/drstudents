@@ -5,26 +5,23 @@ export default function VideoCard() {
   return (
     <div className="bg-[#F2F2F2] rounded-xl p-3 shadow relative w-full max-w-[330px]">
       
-      {/* Star Badge */}
       <div className="absolute -top-3 -right-3 text-yellow-400 text-3xl">
         ⭐
       </div>
 
-      {/* Thumbnail */}
       <div className="w-full h-[160px] overflow-hidden rounded-lg">
         <Image
           src="/job-ready-program.jpg"
           alt="video"
           width={300}
           height={160}
+          priority
           className="object-cover w-full h-full"
         />
       </div>
 
-      {/* Title */}
       <h3 className="font-semibold text-lg mt-3">Chapter Name</h3>
 
-      {/* Meta data */}
       <div className="mt-2 text-sm text-gray-600 space-y-1">
         <p className="flex items-center gap-2">
           <FiUser /> For: NEET Aspirants
@@ -36,7 +33,6 @@ export default function VideoCard() {
 
       <p className="text-sm text-gray-700 mt-2">SHAILM SIR •🔴</p>
 
-      {/* Button */}
       <button className="w-full mt-4 bg-white border py-2 rounded-lg font-medium hover:bg-gray-100">
         Watch Now!
       </button>

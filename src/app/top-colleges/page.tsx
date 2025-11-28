@@ -13,6 +13,7 @@ export default function TopCollege() {
             src="/topcolleges-bg.png"
             alt="college-bg"
             fill
+            priority
             className="w-full h-full object-cover opacity-40"
             placeholder="blur"
             blurDataURL="/topcolleges-bg.png"

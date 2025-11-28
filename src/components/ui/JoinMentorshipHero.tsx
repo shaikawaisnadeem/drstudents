@@ -57,6 +57,7 @@ export default function JoinMentorshipHero() {
           <Image
             src="/recruitement.png"
             width={550}
+            priority
             height={550}
             alt="Mentorship Illustration"
             className="object-contain"

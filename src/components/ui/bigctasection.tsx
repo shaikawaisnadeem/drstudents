@@ -46,6 +46,7 @@ export default function BigCtaSection() {
               src="/earphones.png" 
               alt="student"
               fill
+              priority
               className="object-contain"
             />
           </div>

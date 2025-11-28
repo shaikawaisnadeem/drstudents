@@ -23,7 +23,6 @@ export default function SuccessStories() {
     <section className="w-full py-16 bg-white font-poppins">
       <div className="max-w-6xl mx-auto px-6 text-center">
 
-        {/* Title */}
         <h2 className="text-3xl md:text-4xl font-bold">
           Success Stories From Our Students
         </h2>
@@ -31,7 +30,6 @@ export default function SuccessStories() {
           Real students, real results – guided by DrStudents mentors.
         </p>
 
-        {/* Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10">
           {stories.map((story, i) => (
             <StudentSuccessCard

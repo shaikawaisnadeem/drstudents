@@ -4,7 +4,6 @@ import WhatStudentsSay from "@/components/ui/whatstudentssay";
 import FAQ from "@/components/ui/faq";
 import StudentAbroad from "@/components/ui/studentsabroad";
 import Link from "next/link";
-import Image from "next/image";
 import MembershipPromoCTA from "@/components/ui/membershipPromoCTA";
 
 export default function MembershipPage() {

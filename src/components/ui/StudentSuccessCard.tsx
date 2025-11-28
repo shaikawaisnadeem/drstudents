@@ -11,10 +11,8 @@ export default function StudentSuccessCard({ name, course, message }: Props) {
   return (
     <div className="relative bg-[#F7F5F5] p-6 rounded-2xl shadow-md flex flex-col items-center text-center w-full">
       
-      {/* Star Icon */}
       <FaStar className="absolute -top-3 right-[-13] text-yellow-400" size={46} />
 
-      {/* Avatar Placeholder */}
       <div className="w-20 h-20 bg-black rounded-full flex items-center justify-center text-white text-4xl font-bold">
         <span>👤</span>
       </div>

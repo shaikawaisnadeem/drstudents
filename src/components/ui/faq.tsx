@@ -21,7 +21,6 @@ export default function FAQ() {
   return (
     <div className="w-full font-poppins">
 
-      {/* FAQ SECTION */}
       <div className="bg-black text-white py-16 px-6">
         <h2 className="text-center text-3xl md:text-4xl font-semibold mb-10">
           Frequently Asked Questions
@@ -37,7 +36,6 @@ export default function FAQ() {
         </div>
       </div>
 
-      {/* CTA SECTION */}
       
       
     </div>

@@ -135,13 +135,14 @@ export default function JoinOurMentorshipForm({ onClose }: { onClose?: () => voi
         <Image
           src="/joinmentorship.jpg"
           alt="join mentorship logo"
+          priority
           fill
           className="object-cover object-center rounded-l-3xl"
           placeholder="blur"
           blurDataURL="/joinmentorship.jpg"
         />
         <div className="flex items-center justify-center absolute top-4 right-6">
-          <Image src="/drstudents.png" width={100} height={120} alt="dr-students-png" />
+          <Image src="/drstudents.png" width={100} height={120} priority alt="dr-students-png" />
           <h1 className="font-poppins text-2xl font-semibold ml-[-22px] text-white">Drstudents</h1>
         </div>
       </div>

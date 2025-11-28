@@ -7,7 +7,6 @@ import Joincommunitybtn from "../ui/joincommunitybtn";
 const navlinks = [
   { name: "Home", href: "/" },
   { name: "Top Colleges", href: "/top-colleges" },
-  // { name: "Medical", href: "/medical" },
   { name: "Study With Us", href: "/study-with-us" },
   { name: "Test Series", href: "/test-series" },
   { name: "Abroad", href: "/abroad" },
@@ -15,7 +14,6 @@ const navlinks = [
 
 export function NavLinks({ vertical = false, compact = false }: { vertical?: boolean; compact?: boolean }) {
   const router = useRouter();
-  // When vertical is true we stack links for mobile drawers
   const baseClasses = `text-[18px] font-medium bg-transparent border-0 p-0 cursor-pointer`;
   const containerClasses = vertical
     ? `flex flex-col gap-4 w-full items-start ${compact ? 'text-sm' : 'text-base'}`
@@ -32,7 +30,6 @@ export function NavLinks({ vertical = false, compact = false }: { vertical?: boo
           {link.name}
         </button>
       ))}
-      {/* keep CTA button responsive */}
       <div className={vertical ? 'w-full mt-2' : ''}>
         <Joincommunitybtn />
       </div>
@@ -46,7 +43,6 @@ export function QuickLinks() {
   const quick = [
     { name: "Home", href: "/" },
     { name: "Top Colleges", href: "/top-colleges" },
-    // { name: "Medical", href: "/medical" },
     { name: "Test Series", href: "/test-series" },
     { name: "Study With Us", href: "/study-with-us" },
     { name: "Abroad", href: "/abroad" },
@@ -74,9 +70,7 @@ export function MentorshipLinks() {
 
   const items = [
     { name: "Join Mentorship", href: "/join-our-mentorship" },
-    // { name: "Our Consultancy", href: "/consultancy" },
     { name: "Study With Us", href: "/study-with-us" },
-    // { name: "Resources", href: "/resources" },
   ];
 
   return (

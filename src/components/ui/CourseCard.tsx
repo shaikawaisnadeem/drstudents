@@ -5,18 +5,17 @@ export default function CourseCard() {
   return (
     <div className="bg-[#F2F2F2] rounded-xl p-3 shadow relative w-full max-w-[330px]">
 
-      {/* Star Badge */}
       <div className="absolute -top-3 -right-3 text-yellow-400 text-3xl">
         ⭐
       </div>
 
-      {/* Thumbnail */}
       <div className="w-full h-[160px] overflow-hidden rounded-lg">
         <Image
           src="/clg-frnd.jpg"
           alt="course"
           width={300}
           height={160}
+          priority
           className="object-cover w-full h-full"
         />
       </div>
@@ -39,7 +38,6 @@ export default function CourseCard() {
 
       <p className="text-sm mt-1">FULL BATCH • New Batch</p>
 
-      {/* Buttons */}
       <div className="flex gap-3 mt-4">
         <button className="flex-1 bg-white border py-2 rounded-lg hover:bg-gray-100">
           Explore

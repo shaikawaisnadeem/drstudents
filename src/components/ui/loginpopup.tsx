@@ -8,7 +8,6 @@ export default function LoginPopup({ onClose }: LoginPopupProps) {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/30 backdrop-blur-xs z-50">
 
-      {/* Close Button */}
       {onClose && (
         <button
           onClick={onClose}
