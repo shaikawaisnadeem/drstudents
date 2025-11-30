@@ -62,5 +62,27 @@ export default async function CollegePage({
         affiliation: college.details.affiliation
     };
 
-    return <CollegeDetails data={mappedData} />;
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "CollegeOrUniversity",
+                        "name": college.name,
+                        "description": college.description,
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": college.location,
+                            "addressRegion": college.state,
+                            "addressCountry": "IN"
+                        },
+                        "url": `https://drstudents.com/college?clg=${college.id}`
+                    }),
+                }}
+            />
+            <CollegeDetails data={mappedData} />
+        </>
+    );
 }

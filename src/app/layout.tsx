@@ -40,6 +40,10 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  metadataBase: new URL("https://drstudents.com"),
+  alternates: {
+    canonical: "/",
+  },
 };
 
 const PoppinsFont = Poppins({

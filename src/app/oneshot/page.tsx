@@ -50,6 +50,23 @@ export default async function OneShotPage({
 
     return (
         <div className="min-h-screen bg-white font-poppins pb-20">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "VideoObject",
+                        "name": oneshot.title,
+                        "description": oneshot.description,
+                        "thumbnailUrl": [`https://drstudents.com${oneshot.image}`],
+                        "uploadDate": new Date().toISOString(), // Should be oneshot.startDate ideally formatted
+                        "author": {
+                            "@type": "Person",
+                            "name": oneshot.teacher
+                        }
+                    }),
+                }}
+            />
             {/* Video Hero Section */}
             <div className="bg-black text-white py-16 px-6">
                 <div className="max-w-6xl mx-auto">

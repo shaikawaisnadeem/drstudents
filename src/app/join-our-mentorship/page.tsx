@@ -6,6 +6,13 @@ import StudentAbroad from "@/components/ui/studentsabroad";
 import Link from "next/link";
 import MembershipPromoCTA from "@/components/ui/membershipPromoCTA";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Join Mentorship | DrStudents",
+  description: "Join our premium mentorship program for personalized guidance and support.",
+};
+
 export default function MembershipPage() {
   return (
     <div className="font-poppins">

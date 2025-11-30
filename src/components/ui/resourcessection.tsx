@@ -29,6 +29,7 @@ export default function ResourcesSection() {
 
               <Link
                 href="/blog?post=how-to-choose-medical-college"
+                aria-label="Read more about How to Choose the Right Medical College"
                 className="mt-5 w-full border rounded-full py-3 flex items-center justify-center gap-2 hover:bg-gray-50 transition text-black"
               >
                 Read More <FiArrowRight />
@@ -51,6 +52,7 @@ export default function ResourcesSection() {
 
               <Link
                 href="/blog?post=neet-exam-preparation-tips"
+                aria-label="Read more about NEET Exam Preparation Tips"
                 className="mt-5 w-full border rounded-full py-3 flex items-center justify-center gap-2 hover:bg-gray-50 transition text-black"
               >
                 Read More <FiArrowRight />
@@ -73,6 +75,7 @@ export default function ResourcesSection() {
 
               <Link
                 href="/blog?post=top-study-habits-for-success"
+                aria-label="Read more about Top Study Habits for Success"
                 className="mt-5 w-full border rounded-full py-3 flex items-center justify-center gap-2 hover:bg-gray-50 transition text-black"
               >
                 Read More <FiArrowRight />

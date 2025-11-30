@@ -62,6 +62,23 @@ export default async function BlogPage({
 
     return (
         <div className="font-poppins min-h-screen bg-gray-50 py-16 px-6">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "BlogPosting",
+                        "headline": post.title,
+                        "image": [`https://drstudents.com${post.image}`],
+                        "datePublished": new Date().toISOString(), // Ideally this should come from the post data
+                        "author": {
+                            "@type": "Organization",
+                            "name": "Dr Students"
+                        },
+                        "description": post.seoDescription || post.excerpt,
+                    }),
+                }}
+            />
             <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-sm border overflow-hidden">
 
                 <div className={`w-full h-64 md:h-80 relative flex items-center justify-center`} style={{ backgroundColor: post.imageBg || '#f0f0f0' }}>

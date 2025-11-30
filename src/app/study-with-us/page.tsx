@@ -1,5 +1,3 @@
-'use client'
-import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import WhatStudentsSay from "@/components/ui/whatstudentssay";
@@ -15,24 +13,27 @@ import HeroCarousel from "@/components/ui/HeroCarousel";
 import NeetIntroSection from "@/components/ui/NeetIntroSection";
 import OneShots from "@/components/ui/oneshot";
 import CoursesSection from "@/components/ui/coursesSection";
+import { Metadata } from "next";
 
-
-
+export const metadata: Metadata = {
+  title: "Study With Us | DrStudents",
+  description: "Comprehensive study resources, courses, and test series for medical and engineering aspirants.",
+};
 
 export default function StudyWithUs() {
 
 
   return (
     <div className="font-poppins text-gray-900">
-      <HeroCarousel/>
-     <TrustedEducation/>
-      <ExamCategories/>
-      <TrustedByStudents/>
-      <BigCtaSection/>
+      <HeroCarousel />
+      <TrustedEducation />
+      <ExamCategories />
+      <TrustedByStudents />
+      <BigCtaSection />
       <WhatStudentsSay />
-        <ResourcesSection/>
+      <ResourcesSection />
       <FAQ />
-        <YoutubeCTA/>
+      <YoutubeCTA />
 
     </div>
   );

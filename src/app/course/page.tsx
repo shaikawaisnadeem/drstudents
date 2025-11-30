@@ -51,6 +51,28 @@ export default async function CoursePage({
 
     return (
         <div className="min-h-screen bg-white font-poppins pb-20">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Course",
+                        "name": course.title,
+                        "description": course.description,
+                        "provider": {
+                            "@type": "Organization",
+                            "name": "Dr Students",
+                            "sameAs": "https://drstudents.com"
+                        },
+                        "offers": {
+                            "@type": "Offer",
+                            "price": course.price,
+                            "priceCurrency": "INR",
+                            "availability": "https://schema.org/InStock"
+                        }
+                    }),
+                }}
+            />
             {/* Hero Section */}
             <div className="bg-black text-white py-16 px-6">
                 <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">

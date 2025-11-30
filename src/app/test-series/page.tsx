@@ -3,6 +3,13 @@ import OneShots from "@/components/ui/oneshot";
 import CoursesSection from "@/components/ui/coursesSection";
 import TestSeriesTour from "@/components/ui/TestSeriesTour";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Test Series | DrStudents",
+  description: "Practice with top-quality test-series designed to boost your performance for NEET and JEE.",
+};
+
 export default function TestSeriesPage() {
   return (
     <div className="font-poppins text-gray-900">

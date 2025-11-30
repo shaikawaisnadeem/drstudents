@@ -1,5 +1,11 @@
 import JoinForm from "@/components/join-now/JoinForm";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Join Now | DrStudents",
+  description: "Sign up for DrStudents mentorship and guidance program.",
+};
 
 export default function JoinOurMentorshipPage() {
   return (
