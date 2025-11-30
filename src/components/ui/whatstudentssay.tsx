@@ -1,4 +1,9 @@
+"use client";
+import { useReveal } from "@/hooks/useReveal";
+
 export default function WhatStudentsSay() {
+  const revealRef = useReveal();
+
   const testimonials = [
     {
       text: "“DrStudents guided me from confusion to confidence in my career decisions.”",
@@ -20,7 +25,7 @@ export default function WhatStudentsSay() {
         What Our Students Say
       </h2>
 
-      <div className="max-w-[1200px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-6">
+      <div ref={revealRef} className="max-w-[1200px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-6 reveal-group">
 
         {testimonials.map((item, index) => (
           <div

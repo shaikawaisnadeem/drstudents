@@ -1,14 +1,21 @@
+"use client";
+
 import Image from "next/image";
 import { FiVideo, FiFileText, FiMessageCircle, FiMapPin } from "react-icons/fi";
+import { useReveal } from "@/hooks/useReveal";
 
 export default function TrustedEducation() {
+  const textRef = useReveal();
+  const imgRef = useReveal();
+  const statsRef = useReveal();
+
   return (
     <section className="py-16 bg-white font-poppins">
       <div className="max-w-6xl mx-auto px-6">
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
 
-          <div className="max-w-lg">
+          <div ref={textRef} className="max-w-lg reveal fade-up">
             <h2 className="text-4xl font-semibold leading-snug">
               Bharat’s Trusted & <br /> Affordable Educational <br /> Platform
             </h2>
@@ -23,7 +30,7 @@ export default function TrustedEducation() {
             </button>
           </div>
 
-          <div className="relative">
+          <div ref={imgRef} className="relative reveal scale-in">
             <Image
               src="/study-hero.png"
               alt="Profile Graphic"
@@ -41,7 +48,7 @@ export default function TrustedEducation() {
 
         </div>
 
-        <div className="mt-12 bg-gradient-to-b from-[#2C2C2C] to-black rounded-2xl px-6 py-6 shadow-lg">
+        <div ref={statsRef} className="mt-12 bg-gradient-to-b from-[#2C2C2C] to-black rounded-2xl px-6 py-6 shadow-lg reveal-group">
           <div className="grid grid-cols-2 md:grid-cols-4 text-center text-white gap-8">
 
             <div className="flex flex-col items-center">

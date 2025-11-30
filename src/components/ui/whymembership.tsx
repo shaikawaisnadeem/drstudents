@@ -1,7 +1,12 @@
+"use client";
+
 import { PiBrainBold } from "react-icons/pi";
 import { FiBarChart2, FiTrendingUp, FiPhoneCall } from "react-icons/fi";
+import { useReveal } from "@/hooks/useReveal";
 
 export default function WhyMembership() {
+  const revealRef = useReveal();
+
   return (
     <div className="w-full bg-black text-white py-16 font-poppins">
 
@@ -9,7 +14,7 @@ export default function WhyMembership() {
         Why Membership?
       </h1>
 
-      <div className="max-w-[1200px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 px-6">
+      <div ref={revealRef} className="max-w-[1200px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 px-6 reveal-group">
 
         <div className="flex flex-col items-center text-center">
           <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center mb-4">

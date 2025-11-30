@@ -1,4 +1,7 @@
+"use client";
+
 import React from "react";
+import { useReveal } from "@/hooks/useReveal";
 
 interface CollegeData {
   id: string;
@@ -17,6 +20,12 @@ interface CollegeData {
 }
 
 export default function CollegeDetails({ data }: { data: CollegeData }) {
+  const highlightsRef = useReveal();
+  const aboutRef = useReveal();
+  const coursesRef = useReveal();
+  const cutoffRef = useReveal();
+  const sidebarRef = useReveal();
+
   return (
     <div className="w-full px-6 md:px-16 py-10 font-poppins">
 
@@ -40,7 +49,7 @@ export default function CollegeDetails({ data }: { data: CollegeData }) {
         <div className="col-span-2">
           <h2 className="text-3xl font-semibold mb-4">Key Highlights</h2>
 
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+          <div ref={highlightsRef} className="grid grid-cols-2 md:grid-cols-5 gap-3 reveal-group">
             {[
               { title: "Founded", value: data.founded },
               { title: "Type", value: data.type },
@@ -55,62 +64,68 @@ export default function CollegeDetails({ data }: { data: CollegeData }) {
             ))}
           </div>
 
-          <h2 className="text-3xl font-semibold mt-10 mb-3">About This College</h2>
-          <p className="text-gray-700 leading-[26px] max-w-[90%]">
-            {data.description}
-          </p>
-
-          <h2 className="text-3xl font-semibold mt-12 mb-4">Course Offered</h2>
-
-          <div className="w-full border rounded-xl overflow-hidden">
-            <table className="w-full text-left">
-              <thead className="bg-gray-100">
-                <tr>
-                  <th className="py-3 px-5">Course</th>
-                  <th className="py-3 px-5">Duration</th>
-                  <th className="py-3 px-5">Entrance Exam</th>
-                </tr>
-              </thead>
-              <tbody>
-                {data.courses?.map((row, i) => (
-                  <tr key={i} className="border-b">
-                    <td className="py-3 px-5">{row.name}</td>
-                    <td className="py-3 px-5">{row.duration}</td>
-                    <td className="py-3 px-5">{row.exam}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          <div ref={aboutRef} className="reveal fade-up">
+            <h2 className="text-3xl font-semibold mt-10 mb-3">About This College</h2>
+            <p className="text-gray-700 leading-[26px] max-w-[90%]">
+              {data.description}
+            </p>
           </div>
 
-          <h2 className="text-3xl font-semibold mt-12 mb-4">Cutoff</h2>
+          <div ref={coursesRef} className="reveal fade-up">
+            <h2 className="text-3xl font-semibold mt-12 mb-4">Course Offered</h2>
 
-          <div className="w-full border rounded-xl overflow-hidden">
-            <table className="w-full text-left">
-              <thead className="bg-gray-100">
-                <tr>
-                  <th className="py-3 px-5">Category</th>
-                  <th className="py-3 px-5">Duration</th>
-                  <th className="py-3 px-5">Round 2</th>
-                  <th className="py-3 px-5">Mop-Up</th>
-                </tr>
-              </thead>
-              <tbody>
-                {data.cutoff?.map((row, i) => (
-                  <tr key={i} className="border-b">
-                    <td className="py-3 px-5">{row.category}</td>
-                    <td className="py-3 px-5">{row.duration}</td>
-                    <td className="py-3 px-5">{row.round}</td>
-                    <td className="py-3 px-5">{row.marks}</td>
+            <div className="w-full border rounded-xl overflow-hidden">
+              <table className="w-full text-left">
+                <thead className="bg-gray-100">
+                  <tr>
+                    <th className="py-3 px-5">Course</th>
+                    <th className="py-3 px-5">Duration</th>
+                    <th className="py-3 px-5">Entrance Exam</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {data.courses?.map((row, i) => (
+                    <tr key={i} className="border-b">
+                      <td className="py-3 px-5">{row.name}</td>
+                      <td className="py-3 px-5">{row.duration}</td>
+                      <td className="py-3 px-5">{row.exam}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div ref={cutoffRef} className="reveal fade-up">
+            <h2 className="text-3xl font-semibold mt-12 mb-4">Cutoff</h2>
+
+            <div className="w-full border rounded-xl overflow-hidden">
+              <table className="w-full text-left">
+                <thead className="bg-gray-100">
+                  <tr>
+                    <th className="py-3 px-5">Category</th>
+                    <th className="py-3 px-5">Duration</th>
+                    <th className="py-3 px-5">Round 2</th>
+                    <th className="py-3 px-5">Mop-Up</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {data.cutoff?.map((row, i) => (
+                    <tr key={i} className="border-b">
+                      <td className="py-3 px-5">{row.category}</td>
+                      <td className="py-3 px-5">{row.duration}</td>
+                      <td className="py-3 px-5">{row.round}</td>
+                      <td className="py-3 px-5">{row.marks}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
 
         </div>
 
-        <div className="hidden lg:flex items-center justify-center border rounded-xl bg-gray-100 text-gray-500">
+        <div ref={sidebarRef} className="hidden lg:flex items-center justify-center border rounded-xl bg-gray-100 text-gray-500 reveal fade-in">
           ADS/COLLEGE’S
         </div>
 

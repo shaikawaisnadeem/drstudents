@@ -1,0 +1,80 @@
+/* Reveal Base Styles */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  will-change: opacity, transform;
+}
+
+.reveal.reveal-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Fade In (No translate) */
+.reveal.fade-in {
+  transform: none;
+}
+
+/* Scale In */
+.reveal.scale-in {
+  transform: scale(0.95);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.reveal.reveal-active.scale-in {
+  transform: scale(1);
+}
+
+/* Blur Out (Crisp Reveal) */
+.reveal.blur-out {
+  filter: blur(10px);
+  transition: opacity 0.7s ease-out, filter 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.reveal.reveal-active.blur-out {
+  filter: blur(0);
+}
+
+/* Stagger Support */
+.reveal-group > * {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.reveal-group.reveal-active > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-group.reveal-active > *:nth-child(1) { transition-delay: 0ms; }
+.reveal-group.reveal-active > *:nth-child(2) { transition-delay: 80ms; }
+.reveal-group.reveal-active > *:nth-child(3) { transition-delay: 160ms; }
+.reveal-group.reveal-active > *:nth-child(4) { transition-delay: 240ms; }
+.reveal-group.reveal-active > *:nth-child(5) { transition-delay: 320ms; }
+.reveal-group.reveal-active > *:nth-child(6) { transition-delay: 400ms; }
+.reveal-group.reveal-active > *:nth-child(7) { transition-delay: 480ms; }
+.reveal-group.reveal-active > *:nth-child(8) { transition-delay: 560ms; }
+.reveal-group.reveal-active > *:nth-child(9) { transition-delay: 640ms; }
+.reveal-group.reveal-active > *:nth-child(10) { transition-delay: 720ms; }
+
+/* Next.js Image Lazy Load Fade */
+.next-image-fade {
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+}
+
+.next-image-fade.loaded {
+  opacity: 1;
+}
+
+/* Scale Up (Fade Up + Scale In) for Stagger */
+.reveal-group > .scale-up {
+  transform: translateY(30px) scale(0.95);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.reveal-group.reveal-active > .scale-up {
+  transform: translateY(0) scale(1);
+}

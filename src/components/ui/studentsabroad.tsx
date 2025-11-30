@@ -1,4 +1,9 @@
+"use client";
+import { useReveal } from "@/hooks/useReveal";
+
 export default function StudentAbroad() {
+  const revealRef = useReveal();
+
   const students = [
     {
       text: `"The DrStudents team made my admission process seamless, from application to visa."`,
@@ -24,7 +29,7 @@ export default function StudentAbroad() {
         Our Students Abroad.
       </h2>
 
-      <div className="max-w-[1200px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-6">
+      <div ref={revealRef} className="max-w-[1200px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-6 reveal-group">
 
         {students.map((item, index) => (
           <div

@@ -1,14 +1,18 @@
-'use client'
+"use client";
 import { useRouter } from "next/navigation";
+import { useReveal } from "@/hooks/useReveal";
+
 export default function ChooseYourPlan() {
   const router = useRouter();
+  const revealRef = useReveal();
+
   return (
     <div className="py-16 font-poppins">
       <h1 className="text-center text-4xl font-semibold mb-14">
         Choose Your Plan
       </h1>
 
-      <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+      <div ref={revealRef} className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6 reveal-group">
 
         <div className="rounded-xl border border-gray-200 bg-white p-8 shadow-sm">
           <h2 className="text-2xl font-semibold mb-1">Starter</h2>
@@ -22,9 +26,9 @@ export default function ChooseYourPlan() {
           </ul>
 
           <button
-          onClick={()=> router.push('/join-now')
-          }
-          className="w-full bg-black text-white py-3 rounded-lg font-medium hover:bg-black/90 transition">
+            onClick={() => router.push('/join-now')
+            }
+            className="w-full bg-black text-white py-3 rounded-lg font-medium hover:bg-black/90 transition">
             Join Now
           </button>
         </div>
@@ -41,9 +45,9 @@ export default function ChooseYourPlan() {
           </ul>
 
           <button
-          onClick={()=> router.push('/join-now')
-          }
-          className="w-full bg-white text-black py-3 rounded-lg font-medium hover:bg-white/90 transition">
+            onClick={() => router.push('/join-now')
+            }
+            className="w-full bg-white text-black py-3 rounded-lg font-medium hover:bg-white/90 transition">
             Join Now
           </button>
         </div>
@@ -60,9 +64,9 @@ export default function ChooseYourPlan() {
           </ul>
 
           <button
-          onClick={()=> router.push('/join-now')
-          }
-          className="w-full bg-black text-white py-3 rounded-lg font-medium hover:bg-black/90 transition">
+            onClick={() => router.push('/join-now')
+            }
+            className="w-full bg-black text-white py-3 rounded-lg font-medium hover:bg-black/90 transition">
             Join Now
           </button>
         </div>

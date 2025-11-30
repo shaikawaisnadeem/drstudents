@@ -1,8 +1,13 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
+import { useReveal } from "@/hooks/useReveal";
 
 export default function ExamCategories() {
+  const revealRef = useReveal();
+
   const categories = [
     {
       title: "NEET",
@@ -35,7 +40,7 @@ export default function ExamCategories() {
           Scroll down to find the one you are preparing for
         </p>
 
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
+        <div ref={revealRef} className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center reveal-group">
 
           {categories.map((cat, index) => (
             <div
@@ -67,11 +72,14 @@ export default function ExamCategories() {
 
               <div className="w-[130px] h-full relative rounded-xl overflow-hidden">
                 <Image
-                  priority
                   src={cat.img}
                   alt={cat.title}
                   fill
-                  className="object-cover"
+                  className="object-cover next-image-fade"
+                  loading="lazy"
+                  placeholder="blur"
+                  blurDataURL="/placeholder-blur.jpg"
+                  onLoadingComplete={(img) => img.classList.add("loaded")}
                 />
               </div>
             </div>

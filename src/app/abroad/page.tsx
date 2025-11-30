@@ -1,6 +1,7 @@
 import Image from "next/image";
 import SelectState from "@/components/ui/SelectState";
 import TopColleges from "@/components/ui/TopColleges";
+import RevealWrapper from "@/components/ui/RevealWrapper";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import collegesData from "@/data/colleges.json";
@@ -55,6 +56,8 @@ async function getColleges(searchParams: { [key: string]: string | string[] | un
   return { paginatedColleges, totalPages, currentPage: page };
 }
 
+
+
 export default async function AbroadHero({
   searchParams,
 }: {
@@ -76,7 +79,7 @@ export default async function AbroadHero({
 
         <div className="relative max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-10 text-white">
 
-          <div className="flex flex-col justify-center">
+          <RevealWrapper className="flex flex-col justify-center" animation="fade-up">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
               Ready to Apply Aboard <br /> Colleges?
             </h1>
@@ -88,9 +91,9 @@ export default async function AbroadHero({
             <div className="mt-8">
               <SelectState />
             </div>
-          </div>
+          </RevealWrapper>
 
-          <div className="flex justify-center items-center">
+          <RevealWrapper className="flex justify-center items-center" animation="scale-in">
             <Image
               src="/earth.png"
               width={350}
@@ -99,7 +102,7 @@ export default async function AbroadHero({
               priority
               className="drop-shadow-xl"
             />
-          </div>
+          </RevealWrapper>
         </div>
       </div>
 

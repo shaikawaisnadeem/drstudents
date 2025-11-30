@@ -1,4 +1,9 @@
+"use client";
+import { useReveal } from "@/hooks/useReveal";
+
 export default function FAQ() {
+  const revealRef = useReveal();
+
   const faqs = [
     {
       q: "How long is the membership valid?",
@@ -26,7 +31,7 @@ export default function FAQ() {
           Frequently Asked Questions
         </h2>
 
-        <div className="max-w-[900px] mx-auto space-y-8">
+        <div ref={revealRef} className="max-w-[900px] mx-auto space-y-8 reveal-group">
           {faqs.map((item, i) => (
             <div key={i} className="border-b border-gray-700 pb-5">
               <h3 className="text-lg font-semibold mb-1">{item.q}</h3>
@@ -36,8 +41,8 @@ export default function FAQ() {
         </div>
       </div>
 
-      
-      
+
+
     </div>
   );
 }

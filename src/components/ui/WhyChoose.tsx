@@ -1,6 +1,12 @@
+"use client";
+
 import { FaGraduationCap, FaUniversity, FaPlane, FaComments } from "react-icons/fa";
 import WhyChooseDoctor from "./WhyChooseDoctor";
+import { useReveal } from "@/hooks/useReveal";
+
 export default function WhyChoose() {
+  const revealRef = useReveal();
+
   return (
     <section className="py-16 font-poppins">
       <div className="max-w-6xl mx-auto px-6 text-center">
@@ -13,7 +19,7 @@ export default function WhyChoose() {
           Trusted mentors and verified resources for your academic success.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-6">
+        <div ref={revealRef} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-6 reveal-group">
 
           <WhyChooseDoctor
             icon={FaGraduationCap}

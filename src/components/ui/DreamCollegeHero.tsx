@@ -1,12 +1,18 @@
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
+import { useReveal } from "@/hooks/useReveal";
 
 export default function CollegeHeroSection() {
+  const bgRef = useReveal();
+  const textRef = useReveal();
+  const imgRef = useReveal();
+
   return (
     <section className="relative w-full overflow-hidden bg-[#0E1521] text-white font-poppins">
 
-      <div className="absolute inset-0">
+      <div ref={bgRef} className="absolute inset-0 reveal fade-in">
         <Image
           src="/topcolleges-bg.png"
           alt="bg"
@@ -19,7 +25,7 @@ export default function CollegeHeroSection() {
 
       <div className="relative max-w-7xl mx-auto px-6 py-24 md:py-36 grid grid-cols-1 md:grid-cols-2 gap-10">
 
-        <div>
+        <div ref={textRef} className="reveal-group">
           <span className="bg-white text-black font-semibold px-4 py-1 rounded-full text-sm inline-block mb-4">
             #1 TRUSTED SITE
           </span>
@@ -43,7 +49,7 @@ export default function CollegeHeroSection() {
             </Link>
           </div>
         </div>
-        <div className="flex justify-center md:justify-end md:items-start pt-4">
+        <div ref={imgRef} className="flex justify-center md:justify-end md:items-start pt-4 reveal scale-in">
           <Image
             src="/degreecap.png"
             alt="graduation"

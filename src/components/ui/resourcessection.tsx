@@ -1,8 +1,13 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
+import { useReveal } from "@/hooks/useReveal";
 
 export default function ResourcesSection() {
+  const revealRef = useReveal();
+
   return (
     <section className="py-16 bg-white font-poppins">
       <div className="max-w-6xl mx-auto px-6 text-center">
@@ -12,11 +17,21 @@ export default function ResourcesSection() {
           Read our latest articles, guides, and updates on medical and engineering admissions.
         </p>
 
-        <div className="grid md:grid-cols-3 gap-8 mt-12">
+        <div ref={revealRef} className="grid md:grid-cols-3 gap-8 mt-12 reveal-group">
 
           <div className="bg-white shadow-md rounded-xl border overflow-hidden">
             <div className="bg-[#d7ddf3] p-10 flex justify-center">
-              <Image src="/bookopen.png" alt="notes" priority width={150} height={150} />
+              <Image
+                src="/bookopen.png"
+                alt="notes"
+                width={150}
+                height={150}
+                className="next-image-fade"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL="/placeholder-blur.jpg"
+                onLoadingComplete={(img) => img.classList.add("loaded")}
+              />
             </div>
 
             <div className="p-5 text-left">
@@ -39,7 +54,17 @@ export default function ResourcesSection() {
 
           <div className="bg-white shadow-md rounded-xl border overflow-hidden">
             <div className="bg-[#c2e9e8] p-10 flex justify-center">
-              <Image src="/flask.png" alt="planner" priority width={150} height={150} />
+              <Image
+                src="/flask.png"
+                alt="planner"
+                width={150}
+                height={150}
+                className="next-image-fade"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL="/placeholder-blur.jpg"
+                onLoadingComplete={(img) => img.classList.add("loaded")}
+              />
             </div>
 
             <div className="p-5 text-left">
@@ -62,7 +87,17 @@ export default function ResourcesSection() {
 
           <div className="bg-white shadow-md rounded-xl border overflow-hidden">
             <div className="bg-[#f6e9ae] p-10 flex justify-center">
-              <Image src="/bulb.png" alt="idea" priority width={150} height={150} />
+              <Image
+                src="/bulb.png"
+                alt="idea"
+                width={150}
+                height={150}
+                className="next-image-fade"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL="/placeholder-blur.jpg"
+                onLoadingComplete={(img) => img.classList.add("loaded")}
+              />
             </div>
 
             <div className="p-5 text-left">
