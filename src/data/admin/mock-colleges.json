@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "name": "AIIMS Delhi",
+    "location": "New Delhi, Delhi",
+    "type": "Government",
+    "established": "1956",
+    "affiliation": "Autonomous",
+    "contact": "+91-11-26588500",
+    "courses": [
+      { "courseName": "MBBS", "duration": "5.5 Years", "exam": "NEET" },
+      { "courseName": "MD/MS", "duration": "3 Years", "exam": "INI-CET" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Christian Medical College (CMC)",
+    "location": "Vellore, Tamil Nadu",
+    "type": "Private",
+    "established": "1900",
+    "affiliation": "Dr. MGR Medical University",
+    "contact": "+91-416-2282010",
+    "courses": [
+      { "courseName": "MBBS", "duration": "5.5 Years", "exam": "NEET" },
+      { "courseName": "B.Sc Nursing", "duration": "4 Years", "exam": "Entrance" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "JIPMER",
+    "location": "Puducherry",
+    "type": "Government",
+    "established": "1823",
+    "affiliation": "Autonomous",
+    "contact": "+91-413-2296000",
+    "courses": [
+      { "courseName": "MBBS", "duration": "5.5 Years", "exam": "NEET" }
+    ]
+  }
+]

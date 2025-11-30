@@ -10,7 +10,7 @@ const navlinks = [
   { name: "Abroad", href: "/abroad" },
 ];
 
-export function NavLinks({ vertical = false, compact = false, activePath = "" }: { vertical?: boolean; compact?: boolean; activePath?: string }) {
+export function NavLinks({ vertical = false, compact = false, activePath = "", onLinkClick }: { vertical?: boolean; compact?: boolean; activePath?: string; onLinkClick?: () => void }) {
   const baseClasses = `text-[18px] font-medium bg-transparent border-0 p-0 cursor-pointer block transition-colors`;
   const containerClasses = vertical
     ? `flex flex-col gap-4 w-full items-start ${compact ? 'text-sm' : 'text-base'}`
@@ -25,12 +25,13 @@ export function NavLinks({ vertical = false, compact = false, activePath = "" }:
             key={link.name}
             href={link.href}
             className={`${baseClasses} ${isActive ? "text-gray-400" : "text-white hover:text-gray-300"}`}
+            onClick={onLinkClick}
           >
             {link.name}
           </Link>
         );
       })}
-      <div className={vertical ? 'w-full mt-2' : ''}>
+      <div className={vertical ? 'w-full mt-2' : ''} onClick={onLinkClick}>
         <Joincommunitybtn />
       </div>
     </div>

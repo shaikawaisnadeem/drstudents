@@ -79,7 +79,7 @@ export const Navbar = () => {
               </button>
             </div>
 
-            <NavLinks vertical activePath={pathname} />
+            <NavLinks vertical activePath={pathname} onLinkClick={() => setOpen(false)} />
           </div>
         </div>
       )}

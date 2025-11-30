@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "NEET 2025 Full Mock",
+    "subtitle": "Complete Syllabus Test",
+    "icon": "FiEdit3",
+    "bgColor": "bg-blue-600"
+  },
+  {
+    "id": 2,
+    "title": "Physics Chapter-wise",
+    "subtitle": "Mechanics & Thermodynamics",
+    "icon": "FiYoutube",
+    "bgColor": "bg-purple-600"
+  },
+  {
+    "id": 3,
+    "title": "Chemistry Daily Practice",
+    "subtitle": "Organic & Inorganic",
+    "icon": "FiMessageCircle",
+    "bgColor": "bg-green-600"
+  }
+]

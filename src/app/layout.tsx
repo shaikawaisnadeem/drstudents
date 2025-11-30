@@ -66,13 +66,13 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   return (
     <html lang="en">
       <body className={`${PoppinsFont.variable} ${OutfitFont.variable} antialiased`}>
-        {!isJoinNowPage && <Navbar />}
+        {!isJoinNowPage && !pathname.startsWith("/admin") && <Navbar />}
 
         <ScrollPopupWrapper />
 
         {children}
 
-        {!isJoinNowPage && <Footer />}
+        {!isJoinNowPage && !pathname.startsWith("/admin") && <Footer />}
       </body>
     </html>
   );
