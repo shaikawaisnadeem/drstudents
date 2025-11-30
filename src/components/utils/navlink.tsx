@@ -1,7 +1,5 @@
-"use client";
-
 import React from "react";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import Joincommunitybtn from "../ui/joincommunitybtn";
 
 const navlinks = [
@@ -12,24 +10,26 @@ const navlinks = [
   { name: "Abroad", href: "/abroad" },
 ];
 
-export function NavLinks({ vertical = false, compact = false }: { vertical?: boolean; compact?: boolean }) {
-  const router = useRouter();
-  const baseClasses = `text-[18px] font-medium bg-transparent border-0 p-0 cursor-pointer`;
+export function NavLinks({ vertical = false, compact = false, activePath = "" }: { vertical?: boolean; compact?: boolean; activePath?: string }) {
+  const baseClasses = `text-[18px] font-medium bg-transparent border-0 p-0 cursor-pointer block transition-colors`;
   const containerClasses = vertical
     ? `flex flex-col gap-4 w-full items-start ${compact ? 'text-sm' : 'text-base'}`
     : `flex gap-6 items-center ${compact ? 'text-sm' : 'text-lg'}`;
 
   return (
     <div className={containerClasses}>
-      {navlinks.map((link) => (
-        <button
-          key={link.name}
-          onClick={() => router.push(link.href)}
-          className={baseClasses}
-        >
-          {link.name}
-        </button>
-      ))}
+      {navlinks.map((link) => {
+        const isActive = activePath === link.href || (link.href !== "/" && activePath.startsWith(link.href));
+        return (
+          <Link
+            key={link.name}
+            href={link.href}
+            className={`${baseClasses} ${isActive ? "text-gray-400" : "text-white hover:text-gray-300"}`}
+          >
+            {link.name}
+          </Link>
+        );
+      })}
       <div className={vertical ? 'w-full mt-2' : ''}>
         <Joincommunitybtn />
       </div>
@@ -38,8 +38,6 @@ export function NavLinks({ vertical = false, compact = false }: { vertical?: boo
 }
 
 export function QuickLinks() {
-  const router = useRouter();
-
   const quick = [
     { name: "Home", href: "/" },
     { name: "Top Colleges", href: "/top-colleges" },
@@ -53,21 +51,19 @@ export function QuickLinks() {
       <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
 
       {quick.map((item) => (
-        <button
+        <Link
           key={item.name}
-          onClick={() => router.push(item.href)}
-          className="text-gray-300 hover:text-white text-md text-left cursor-pointer p-0 bg-transparent border-0 font-outfit"
+          href={item.href}
+          className="text-gray-300 hover:text-white text-md text-left cursor-pointer p-0 bg-transparent border-0 font-outfit block"
         >
           {item.name}
-        </button>
+        </Link>
       ))}
     </div>
   );
 }
 
 export function MentorshipLinks() {
-  const router = useRouter();
-
   const items = [
     { name: "Join Mentorship", href: "/join-our-mentorship" },
     { name: "Study With Us", href: "/study-with-us" },
@@ -78,21 +74,19 @@ export function MentorshipLinks() {
       <h3 className="text-lg font-semibold mb-2">Mentorship & Services</h3>
 
       {items.map((item) => (
-        <button
+        <Link
           key={item.name}
-          onClick={() => router.push(item.href)}
-          className="text-gray-300 hover:text-white text-md text-left cursor-pointer p-0 bg-transparent border-0 font-outfit"
+          href={item.href}
+          className="text-gray-300 hover:text-white text-md text-left cursor-pointer p-0 bg-transparent border-0 font-outfit block"
         >
           {item.name}
-        </button>
+        </Link>
       ))}
     </div>
   );
 }
 
 export function SupportLinks() {
-  const router = useRouter();
-
   const support = [
     { name: "support@drstudents.com", href: "mailto:support@drstudents.com" },
     { name: "+91 98765 43210", href: "tel:+919876543210" },
@@ -104,13 +98,13 @@ export function SupportLinks() {
       <h3 className="text-lg font-semibold mb-2">Support</h3>
 
       {support.map((s) => (
-        <button
+        <Link
           key={s.name}
-          onClick={() => s.href !== "#" && router.push(s.href)}
-          className="text-gray-300 hover:text-white text-md text-left cursor-pointer p-0 bg-transparent border-0 font-outfit"
+          href={s.href}
+          className="text-gray-300 hover:text-white text-md text-left cursor-pointer p-0 bg-transparent border-0 font-outfit block"
         >
           {s.name}
-        </button>
+        </Link>
       ))}
     </div>
   );

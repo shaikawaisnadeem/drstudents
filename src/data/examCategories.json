@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "slug": "neet",
+    "title": "NEET",
+    "classes": ["Class 11", "Class 12", "Dropper"],
+    "image": "/doctorques.jpg",
+    "description": "The National Eligibility cum Entrance Test (Undergraduate) or NEET (UG), formerly the All India Pre-Medical Test (AIPMT), is an all India pre-medical entrance test for students who wish to pursue undergraduate medical (MBBS), dental (BDS) and AYUSH (BAMS, BUMS, BHMS, etc.) courses in government and private institutions in India and also, for those intending to pursue primary medical qualification abroad.",
+    "resources": [
+      {
+        "id": 101,
+        "title": "Beginner NEET Strategy",
+        "type": "article",
+        "content": "Start your preparation with NCERT books. They are the bible for NEET. Focus on understanding concepts rather than rote learning.",
+        "thumbnail": "/bookopen.png"
+      },
+      {
+        "id": 102,
+        "title": "Physics Formula Sheet",
+        "type": "guide",
+        "content": "A comprehensive list of all physics formulas required for NEET. Keep this handy for quick revision.",
+        "thumbnail": "/flask.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "iit-jee",
+    "title": "IIT JEE",
+    "classes": ["Class 11", "Class 12", "Dropper"],
+    "image": "/iit.jpg",
+    "description": "Joint Entrance Examination – Advanced (JEE-Advanced), formerly the Indian Institutes of Technology-Joint Entrance Examination (IIT-JEE), is an academic examination held annually in India. It is conducted by one of the seven zonal IITs (IIT Roorkee, IIT Kharagpur, IIT Delhi, IIT Kanpur, IIT Bombay, IIT Madras, and IIT Guwahati) under the guidance of the Joint Admission Board (JAB).",
+    "resources": [
+      {
+        "id": 201,
+        "title": "Cracking JEE Advanced",
+        "type": "article",
+        "content": "JEE Advanced requires deep conceptual understanding. Solve previous year questions to understand the pattern and difficulty level.",
+        "thumbnail": "/bulb.png"
+      },
+      {
+        "id": 202,
+        "title": "Maths Shortcuts",
+        "type": "video",
+        "content": "Learn time-saving shortcuts for solving complex calculus and algebra problems.",
+        "thumbnail": "/bookopen.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "upsc",
+    "title": "UPSC",
+    "classes": ["Class 11", "Class 12", "Dropper"],
+    "image": "/upsc.jpg",
+    "description": "The Civil Services Examination (CSE) is a nationwide competitive examination in India conducted by the Union Public Service Commission for recruitment to various Civil Services of the Government of India, including the Indian Administrative Service (IAS), Indian Foreign Service (IFS), and Indian Police Service (IPS).",
+    "resources": [
+      {
+        "id": 301,
+        "title": "UPSC Syllabus Decoding",
+        "type": "guide",
+        "content": "Understanding the vast UPSC syllabus is the first step. Break it down into manageable sections.",
+        "thumbnail": "/flask.png"
+      },
+      {
+        "id": 302,
+        "title": "Current Affairs Strategy",
+        "type": "article",
+        "content": "Read The Hindu or Indian Express daily. Make notes on important national and international events.",
+        "thumbnail": "/bulb.png"
+      }
+    ]
+  }
+]

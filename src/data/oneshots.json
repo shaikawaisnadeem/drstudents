@@ -1,0 +1,80 @@
+[
+  {
+    "id": "os-1",
+    "slug": "physics-motion-oneshot",
+    "title": "Motion in a Straight Line",
+    "teacher": "SHAILM SIR",
+    "teacherStatus": "LIVE",
+    "image": "/job-ready-program.jpg",
+    "for": "NEET Aspirants",
+    "startDate": "10 Nov, 2025",
+    "endDate": "30 Jan, 2027",
+    "category": "neet-class-11-oneshots",
+    "description": "Complete coverage of Motion in a Straight Line for NEET Class 11. Includes theory, derivations, and problem solving."
+  },
+  {
+    "id": "os-2",
+    "slug": "chemistry-atomic-structure-oneshot",
+    "title": "Structure of Atom",
+    "teacher": "RAHUL SIR",
+    "teacherStatus": "RECORDED",
+    "image": "/job-ready-program.jpg",
+    "for": "NEET Aspirants",
+    "startDate": "15 Nov, 2025",
+    "endDate": "30 Jan, 2027",
+    "category": "neet-class-11-oneshots",
+    "description": "Master Atomic Structure in one go. Detailed explanation of quantum numbers, electronic configuration, and more."
+  },
+  {
+    "id": "os-3",
+    "slug": "biology-cell-cycle-oneshot",
+    "title": "Cell Cycle and Cell Division",
+    "teacher": "ANJALI MAM",
+    "teacherStatus": "LIVE",
+    "image": "/job-ready-program.jpg",
+    "for": "NEET Aspirants",
+    "startDate": "20 Nov, 2025",
+    "endDate": "30 Jan, 2027",
+    "category": "neet-class-11-oneshots",
+    "description": "One shot revision of Cell Cycle and Cell Division. Focus on Mitosis, Meiosis, and regulation of cell cycle."
+  },
+  {
+    "id": "os-4",
+    "slug": "physics-laws-of-motion-oneshot",
+    "title": "Laws of Motion",
+    "teacher": "SHAILM SIR",
+    "teacherStatus": "LIVE",
+    "image": "/job-ready-program.jpg",
+    "for": "NEET Aspirants",
+    "startDate": "25 Nov, 2025",
+    "endDate": "30 Jan, 2027",
+    "category": "neet-class-11-oneshots",
+    "description": "Understand Newton's Laws of Motion with real-life examples and numericals. Essential for mechanics."
+  },
+  {
+    "id": "os-5",
+    "slug": "chemistry-bonding-oneshot",
+    "title": "Chemical Bonding",
+    "teacher": "RAHUL SIR",
+    "teacherStatus": "RECORDED",
+    "image": "/job-ready-program.jpg",
+    "for": "NEET Aspirants",
+    "startDate": "01 Dec, 2025",
+    "endDate": "30 Jan, 2027",
+    "category": "neet-class-11-oneshots",
+    "description": "Deep dive into Chemical Bonding and Molecular Structure. VSEPR theory, Hybridization, and MOT covered."
+  },
+  {
+    "id": "os-6",
+    "slug": "biology-plant-kingdom-oneshot",
+    "title": "Plant Kingdom",
+    "teacher": "ANJALI MAM",
+    "teacherStatus": "LIVE",
+    "image": "/job-ready-program.jpg",
+    "for": "NEET Aspirants",
+    "startDate": "05 Dec, 2025",
+    "endDate": "30 Jan, 2027",
+    "category": "neet-class-11-oneshots",
+    "description": "Comprehensive overview of Plant Kingdom. Algae, Bryophytes, Pteridophytes, Gymnosperms, and Angiosperms."
+  }
+]

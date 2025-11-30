@@ -1,0 +1,53 @@
+[
+  {
+    "id": "1",
+    "slug": "how-to-choose-medical-college",
+    "title": "How to Choose the Right Medical College",
+    "excerpt": "Learn key factors to consider when selecting your dream MBBS college.",
+    "content": [
+      "Choosing the right medical college is one of the most critical decisions in a student's life. It sets the foundation for your medical career and shapes your future as a doctor.",
+      "First, consider the college's reputation and ranking. Look for institutions with a strong history of academic excellence and successful alumni. Government colleges often have lower fees and high patient inflow, which is crucial for clinical exposure.",
+      "Second, evaluate the infrastructure and facilities. A good medical college should have well-equipped laboratories, a modern library, and a hospital with a wide variety of cases. Clinical rotation opportunities are essential for practical learning.",
+      "Third, faculty quality is paramount. Experienced and dedicated professors can significantly impact your understanding of complex medical concepts. Research the faculty's qualifications and their involvement in medical research.",
+      "Lastly, consider the location and campus life. You will be spending 5.5 years there, so ensure the environment is conducive to studying and personal growth. Don't forget to check the fee structure and scholarship options available."
+    ],
+    "image": "/bookopen.png",
+    "imageBg": "#d7ddf3",
+    "category": "Admissions",
+    "seoDescription": "Guide to choosing the best medical college for MBBS. Factors include ranking, infrastructure, faculty, and clinical exposure."
+  },
+  {
+    "id": "2",
+    "slug": "neet-exam-preparation-tips",
+    "title": "NEET Exam Preparation Tips",
+    "excerpt": "Discover effective strategies to boost your NEET performance.",
+    "content": [
+      "NEET is one of the most competitive exams in India, requiring disciplined preparation and a strategic approach. Here are some tips to help you ace the exam.",
+      "Start with a clear understanding of the syllabus and exam pattern. Focus on NCERT textbooks as they are the bible for NEET preparation. Ensure you cover every topic in Physics, Chemistry, and Biology.",
+      "Create a realistic study schedule and stick to it. Consistency is key. Allocate time for revision and practice tests regularly. Mock tests help you understand your strengths and weaknesses and improve your time management skills.",
+      "Don't ignore your weak areas. Identify the topics you find difficult and spend extra time mastering them. Seek help from teachers or mentors if needed.",
+      "Maintain a healthy lifestyle. A balanced diet, adequate sleep, and regular breaks are essential to keep your mind sharp and focused. Stay positive and believe in yourself."
+    ],
+    "image": "/flask.png",
+    "imageBg": "#c2e9e8",
+    "category": "Preparation",
+    "seoDescription": "Top NEET preparation tips and strategies. Focus on NCERT, study schedules, mock tests, and healthy habits for success."
+  },
+  {
+    "id": "3",
+    "slug": "top-study-habits-for-success",
+    "title": "Top Study Habits for Success",
+    "excerpt": "Build habits that help you stay ahead in your academic journey.",
+    "content": [
+      "Success in academics is not just about intelligence; it's about developing the right study habits. Here are some habits that can help you achieve your goals.",
+      "Active recall is a powerful technique. Instead of passively reading your notes, try to recall the information from memory. This strengthens neural pathways and improves retention.",
+      "Spaced repetition is another effective method. Review your material at increasing intervals to prevent forgetting. Tools like flashcards can be very helpful for this.",
+      "Minimize distractions while studying. Find a quiet place, turn off your phone, and focus on the task at hand. The Pomodoro technique, where you study for 25 minutes and take a 5-minute break, can help maintain concentration.",
+      "Stay organized. Keep your notes, assignments, and study materials in order. A clutter-free environment leads to a clutter-free mind."
+    ],
+    "image": "/bulb.png",
+    "imageBg": "#f6e9ae",
+    "category": "Productivity",
+    "seoDescription": "Effective study habits for students. Learn about active recall, spaced repetition, and minimizing distractions for academic success."
+  }
+]

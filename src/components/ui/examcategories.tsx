@@ -1,20 +1,24 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
 
 export default function ExamCategories() {
   const categories = [
     {
       title: "NEET",
+      slug: "neet",
       img: "/doctorques.jpg",
       classes: ["Class 11", "Class 12", "Dropper"],
     },
     {
       title: "IIT JEE",
+      slug: "iit-jee",
       img: "/iit.jpg",
       classes: ["Class 11", "Class 12", "Dropper"],
     },
     {
       title: "UPSC",
+      slug: "upsc",
       img: "/upsc.jpg",
       classes: ["Class 11", "Class 12", "Dropper"],
     },
@@ -53,14 +57,17 @@ export default function ExamCategories() {
                     ))}
                   </div>
                 </div>
-                <button className="flex items-center gap-2 text-sm mt-2 hover:underline">
+                <Link
+                  href={`/exam?cat=${cat.slug}`}
+                  className="flex items-center gap-2 text-sm mt-2 hover:underline"
+                >
                   Explore Category <FiArrowRight size={16} />
-                </button>
+                </Link>
               </div>
 
               <div className="w-[130px] h-full relative rounded-xl overflow-hidden">
                 <Image
-                priority
+                  priority
                   src={cat.img}
                   alt={cat.title}
                   fill

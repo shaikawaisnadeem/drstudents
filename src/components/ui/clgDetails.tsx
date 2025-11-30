@@ -1,6 +1,22 @@
 import React from "react";
 
-export default function CollegeDetails() {
+interface CollegeData {
+  id: string;
+  name: string;
+  location: string;
+  type: string;
+  rating: string;
+  views: string;
+  founded: string;
+  affiliation: string;
+  contact: string;
+  description: string;
+  courses: Array<{ name: string; duration: string; exam: string }>;
+  cutoff: Array<{ category: string; duration: string; round: string; marks: string }>;
+  [key: string]: any;
+}
+
+export default function CollegeDetails({ data }: { data: CollegeData }) {
   return (
     <div className="w-full px-6 md:px-16 py-10 font-poppins">
 
@@ -26,11 +42,11 @@ export default function CollegeDetails() {
 
           <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
             {[
-              { title: "Founded", value: "1835" },
-              { title: "Type", value: "Government" },
-              { title: "Courses", value: "MBBS, BDS" },
-              { title: "Affiliation", value: "WBUHS" },
-              { title: "Contact", value: "033-2265-xxxx" },
+              { title: "Founded", value: data.founded },
+              { title: "Type", value: data.type },
+              { title: "Courses", value: data.courses?.map(c => c.name).join(", ") },
+              { title: "Affiliation", value: data.affiliation },
+              { title: "Contact", value: data.contact },
             ].map((item, i) => (
               <div key={i} className="border rounded-lg p-4 text-center">
                 <p className="text-sm text-gray-500">{item.title}</p>
@@ -41,10 +57,7 @@ export default function CollegeDetails() {
 
           <h2 className="text-3xl font-semibold mt-10 mb-3">About This College</h2>
           <p className="text-gray-700 leading-[26px] max-w-[90%]">
-            Medical College Kolkata is one of India’s oldest and most prestigious
-            government medical institutions, offering MBBS, BDS, and postgraduate
-            programs. The college provides excellent faculty, facilities, and clinical
-            exposure to students.
+            {data.description}
           </p>
 
           <h2 className="text-3xl font-semibold mt-12 mb-4">Course Offered</h2>
@@ -59,15 +72,11 @@ export default function CollegeDetails() {
                 </tr>
               </thead>
               <tbody>
-                {[
-                  { c: "MBBS", d: "5.5 Years", e: "NEET UG" },
-                  { c: "BDS", d: "5 Years", e: "NEET UG" },
-                  { c: "Nursing", d: "4 Years", e: "State Entrance" },
-                ].map((row, i) => (
+                {data.courses?.map((row, i) => (
                   <tr key={i} className="border-b">
-                    <td className="py-3 px-5">{row.c}</td>
-                    <td className="py-3 px-5">{row.d}</td>
-                    <td className="py-3 px-5">{row.e}</td>
+                    <td className="py-3 px-5">{row.name}</td>
+                    <td className="py-3 px-5">{row.duration}</td>
+                    <td className="py-3 px-5">{row.exam}</td>
                   </tr>
                 ))}
               </tbody>
@@ -87,15 +96,12 @@ export default function CollegeDetails() {
                 </tr>
               </thead>
               <tbody>
-                {[
-                  { c: "General", d: "5.5 Years", r: "NEET UG", m: "674" },
-                  { c: "BDS", d: "5 Years", r: "NEET UG", m: "658" },
-                ].map((row, i) => (
+                {data.cutoff?.map((row, i) => (
                   <tr key={i} className="border-b">
-                    <td className="py-3 px-5">{row.c}</td>
-                    <td className="py-3 px-5">{row.d}</td>
-                    <td className="py-3 px-5">{row.r}</td>
-                    <td className="py-3 px-5">{row.m}</td>
+                    <td className="py-3 px-5">{row.category}</td>
+                    <td className="py-3 px-5">{row.duration}</td>
+                    <td className="py-3 px-5">{row.round}</td>
+                    <td className="py-3 px-5">{row.marks}</td>
                   </tr>
                 ))}
               </tbody>

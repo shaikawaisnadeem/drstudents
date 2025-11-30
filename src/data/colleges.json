@@ -1,0 +1,1009 @@
+[
+  {
+    "id": "aiims-delhi",
+    "name": "AIIMS Delhi",
+    "state": "Delhi",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "New Delhi",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.9",
+    "views": "50K",
+    "description": "All India Institute of Medical Sciences, New Delhi is the premier medical institute in India, known for its excellence in research and patient care.",
+    "details": {
+      "founded": 1956,
+      "courses": ["MBBS", "BDS", "Nursing"],
+      "contact": "011-26588500",
+      "affiliation": "Autonomous",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "715" }]
+    }
+  },
+  {
+    "id": "mamc-delhi",
+    "name": "Maulana Azad Medical College",
+    "state": "Delhi",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "New Delhi",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.8",
+    "views": "35K",
+    "description": "MAMC is a top-ranked government medical college in Delhi, affiliated with the University of Delhi.",
+    "details": {
+      "founded": 1959,
+      "courses": ["MBBS", "MD", "MS"],
+      "contact": "011-23239271",
+      "affiliation": "Delhi University",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "690" }]
+    }
+  },
+  {
+    "id": "maids-delhi",
+    "name": "Maulana Azad Institute of Dental Sciences",
+    "state": "Delhi",
+    "stream": "BDS",
+    "type": "Government",
+    "location": "New Delhi",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.9",
+    "views": "20K",
+    "description": "MAIDS is widely regarded as the best dental college in India, offering state-of-the-art dental education and care.",
+    "details": {
+      "founded": 1983,
+      "courses": ["BDS", "MDS"],
+      "contact": "011-23233884",
+      "affiliation": "Delhi University",
+      "cutoff": [{ "category": "General", "duration": "5 Years", "round": "NEET", "marks": "650" }]
+    }
+  },
+  {
+    "id": "rak-nursing-delhi",
+    "name": "RAK College of Nursing",
+    "state": "Delhi",
+    "stream": "Nursing",
+    "type": "Government",
+    "location": "New Delhi",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.7",
+    "views": "15K",
+    "description": "Rajkumari Amrit Kaur College of Nursing is a pioneer institute for nursing education in India and South East Asia.",
+    "details": {
+      "founded": 1946,
+      "courses": ["B.Sc Nursing", "M.Sc Nursing"],
+      "contact": "011-26436788",
+      "affiliation": "Delhi University",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "Entrance", "marks": "N/A" }]
+    }
+  },
+  {
+    "id": "iit-delhi",
+    "name": "IIT Delhi",
+    "state": "Delhi",
+    "stream": "Engineering",
+    "type": "Government",
+    "location": "New Delhi",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.9",
+    "views": "45K",
+    "description": "IIT Delhi is one of the most prestigious technical universities in India, known for its strong research focus.",
+    "details": {
+      "founded": 1961,
+      "courses": ["B.Tech", "M.Tech", "PhD"],
+      "contact": "011-26597135",
+      "affiliation": "Autonomous",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "JEE Adv", "marks": "Top 150" }]
+    }
+  },
+  {
+    "id": "osmania-medical-college",
+    "name": "Osmania Medical College",
+    "state": "Telangana",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Hyderabad, Telangana",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.6",
+    "views": "25K",
+    "description": "Osmania Medical College is one of the oldest medical colleges in India, located in Hyderabad.",
+    "details": {
+      "founded": 1846,
+      "courses": ["MBBS", "MD", "MS"],
+      "contact": "040-24653992",
+      "affiliation": "KNRUHS",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "640" }]
+    }
+  },
+  {
+    "id": "iit-hyderabad",
+    "name": "IIT Hyderabad",
+    "state": "Telangana",
+    "stream": "Engineering",
+    "type": "Government",
+    "location": "Sangareddy, Telangana",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.7",
+    "views": "30K",
+    "description": "IIT Hyderabad is known for its academic strength, research, and proximity to the IT hub of Hyderabad.",
+    "details": {
+      "founded": 2008,
+      "courses": ["B.Tech", "M.Tech"],
+      "contact": "040-23016033",
+      "affiliation": "Autonomous",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "JEE Adv", "marks": "Top 1000" }]
+    }
+  },
+  {
+    "id": "andhra-medical-college",
+    "name": "Andhra Medical College",
+    "state": "Andhra Pradesh",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Visakhapatnam, Andhra Pradesh",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.6",
+    "views": "22K",
+    "description": "Andhra Medical College is the oldest medical college in Andhra Pradesh and one of the oldest in India.",
+    "details": {
+      "founded": 1923,
+      "courses": ["MBBS", "DM", "M.Ch"],
+      "contact": "0891-2561157",
+      "affiliation": "NTRUHS",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "630" }]
+    }
+  },
+  {
+    "id": "govt-dental-vijayawada",
+    "name": "Government Dental College Vijayawada",
+    "state": "Andhra Pradesh",
+    "stream": "BDS",
+    "type": "Government",
+    "location": "Vijayawada, Andhra Pradesh",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.4",
+    "views": "10K",
+    "description": "Government Dental College Vijayawada offers excellent dental education and clinical training.",
+    "details": {
+      "founded": 1992,
+      "courses": ["BDS", "MDS"],
+      "contact": "0866-2452256",
+      "affiliation": "NTRUHS",
+      "cutoff": [{ "category": "General", "duration": "5 Years", "round": "NEET", "marks": "550" }]
+    }
+  },
+  {
+    "id": "bangalore-medical-college",
+    "name": "Bangalore Medical College",
+    "state": "Karnataka",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Bangalore, Karnataka",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.8",
+    "views": "32K",
+    "description": "Bangalore Medical College and Research Institute is a premier medical college in Karnataka.",
+    "details": {
+      "founded": 1955,
+      "courses": ["MBBS", "B.Sc Nursing"],
+      "contact": "080-26700810",
+      "affiliation": "RGUHS",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "660" }]
+    }
+  },
+  {
+    "id": "mcods-manipal",
+    "name": "Manipal College of Dental Sciences",
+    "state": "Karnataka",
+    "stream": "BDS",
+    "type": "Private",
+    "location": "Manipal, Karnataka",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.8",
+    "views": "28K",
+    "description": "MCODS Manipal is ranked among the top dental colleges in the country, known for its infrastructure.",
+    "details": {
+      "founded": 1965,
+      "courses": ["BDS", "MDS"],
+      "contact": "0820-2922340",
+      "affiliation": "MAHE",
+      "cutoff": [{ "category": "General", "duration": "5 Years", "round": "NEET", "marks": "580" }]
+    }
+  },
+  {
+    "id": "iisc-bangalore",
+    "name": "IISc Bangalore",
+    "state": "Karnataka",
+    "stream": "Engineering",
+    "type": "Government",
+    "location": "Bangalore, Karnataka",
+    "image": "/topcolleges-bg.png",
+    "rating": "5.0",
+    "views": "40K",
+    "description": "Indian Institute of Science is India's premier institution for advanced scientific and technological research and education.",
+    "details": {
+      "founded": 1909,
+      "courses": ["B.Sc (Research)", "M.Tech", "PhD"],
+      "contact": "080-22932004",
+      "affiliation": "Deemed University",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "JEE/KVPY", "marks": "Top 50" }]
+    }
+  },
+  {
+    "id": "madras-medical-college",
+    "name": "Madras Medical College",
+    "state": "Tamil Nadu",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Chennai, Tamil Nadu",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.7",
+    "views": "29K",
+    "description": "Madras Medical College is one of the oldest and most prestigious medical colleges in India.",
+    "details": {
+      "founded": 1835,
+      "courses": ["MBBS", "B.Pharma"],
+      "contact": "044-25305000",
+      "affiliation": "TNMGRMU",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "655" }]
+    }
+  },
+  {
+    "id": "cmc-vellore",
+    "name": "Christian Medical College",
+    "state": "Tamil Nadu",
+    "stream": "Medical",
+    "type": "Private",
+    "location": "Vellore, Tamil Nadu",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.9",
+    "views": "42K",
+    "description": "CMC Vellore is consistently ranked among the top medical colleges in India, known for its service-oriented mission.",
+    "details": {
+      "founded": 1900,
+      "courses": ["MBBS", "Nursing", "AHS"],
+      "contact": "0416-2282010",
+      "affiliation": "TNMGRMU",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "680" }]
+    }
+  },
+  {
+    "id": "cmc-nursing-vellore",
+    "name": "College of Nursing, CMC Vellore",
+    "state": "Tamil Nadu",
+    "stream": "Nursing",
+    "type": "Private",
+    "location": "Vellore, Tamil Nadu",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.8",
+    "views": "18K",
+    "description": "The College of Nursing at CMC Vellore is a leader in nursing education and research.",
+    "details": {
+      "founded": 1946,
+      "courses": ["B.Sc Nursing", "M.Sc Nursing"],
+      "contact": "0416-2282010",
+      "affiliation": "TNMGRMU",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "Entrance", "marks": "N/A" }]
+    }
+  },
+  {
+    "id": "iit-madras",
+    "name": "IIT Madras",
+    "state": "Tamil Nadu",
+    "stream": "Engineering",
+    "type": "Government",
+    "location": "Chennai, Tamil Nadu",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.9",
+    "views": "44K",
+    "description": "IIT Madras is a top-ranking engineering institute known for its beautiful campus and academic rigor.",
+    "details": {
+      "founded": 1959,
+      "courses": ["B.Tech", "Dual Degree"],
+      "contact": "044-22578000",
+      "affiliation": "Autonomous",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "JEE Adv", "marks": "Top 200" }]
+    }
+  },
+  {
+    "id": "gmc-thiruvananthapuram",
+    "name": "Govt Medical College Thiruvananthapuram",
+    "state": "Kerala",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Thiruvananthapuram, Kerala",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.7",
+    "views": "24K",
+    "description": "Government Medical College Thiruvananthapuram is the oldest medical college in Kerala.",
+    "details": {
+      "founded": 1951,
+      "courses": ["MBBS", "MD", "MS"],
+      "contact": "0471-2528386",
+      "affiliation": "KUHS",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "670" }]
+    }
+  },
+  {
+    "id": "nursing-thiruvananthapuram",
+    "name": "Govt College of Nursing Thiruvananthapuram",
+    "state": "Kerala",
+    "stream": "Nursing",
+    "type": "Government",
+    "location": "Thiruvananthapuram, Kerala",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.6",
+    "views": "12K",
+    "description": "A premier nursing institute in Kerala attached to the Medical College Hospital.",
+    "details": {
+      "founded": 1972,
+      "courses": ["B.Sc Nursing", "M.Sc Nursing"],
+      "contact": "0471-2444270",
+      "affiliation": "KUHS",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "Merit", "marks": "N/A" }]
+    }
+  },
+  {
+    "id": "seth-gs-mumbai",
+    "name": "Seth GS Medical College",
+    "state": "Maharashtra",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Mumbai, Maharashtra",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.8",
+    "views": "34K",
+    "description": "Seth GS Medical College and KEM Hospital is a prestigious medical institution in Mumbai.",
+    "details": {
+      "founded": 1926,
+      "courses": ["MBBS", "OT", "PT"],
+      "contact": "022-24107000",
+      "affiliation": "MUHS",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "685" }]
+    }
+  },
+  {
+    "id": "gdc-mumbai",
+    "name": "Govt Dental College Mumbai",
+    "state": "Maharashtra",
+    "stream": "BDS",
+    "type": "Government",
+    "location": "Mumbai, Maharashtra",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.6",
+    "views": "18K",
+    "description": "Government Dental College & Hospital Mumbai is a top dental college in Maharashtra.",
+    "details": {
+      "founded": 1938,
+      "courses": ["BDS", "MDS"],
+      "contact": "022-22620668",
+      "affiliation": "MUHS",
+      "cutoff": [{ "category": "General", "duration": "5 Years", "round": "NEET", "marks": "610" }]
+    }
+  },
+  {
+    "id": "iit-bombay",
+    "name": "IIT Bombay",
+    "state": "Maharashtra",
+    "stream": "Engineering",
+    "type": "Government",
+    "location": "Mumbai, Maharashtra",
+    "image": "/topcolleges-bg.png",
+    "rating": "5.0",
+    "views": "55K",
+    "description": "IIT Bombay is recognized worldwide as a leader in the field of engineering education and research.",
+    "details": {
+      "founded": 1958,
+      "courses": ["B.Tech", "M.Tech", "PhD"],
+      "contact": "022-25722545",
+      "affiliation": "Autonomous",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "JEE Adv", "marks": "Top 50" }]
+    }
+  },
+  {
+    "id": "bj-medical-ahmedabad",
+    "name": "BJ Medical College",
+    "state": "Gujarat",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Ahmedabad, Gujarat",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.7",
+    "views": "26K",
+    "description": "B.J. Medical College is one of the largest medical colleges in India, attached to the Civil Hospital Ahmedabad.",
+    "details": {
+      "founded": 1871,
+      "courses": ["MBBS", "MD", "MS"],
+      "contact": "079-22680074",
+      "affiliation": "Gujarat University",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "660" }]
+    }
+  },
+  {
+    "id": "gdc-ahmedabad",
+    "name": "Govt Dental College Ahmedabad",
+    "state": "Gujarat",
+    "stream": "BDS",
+    "type": "Government",
+    "location": "Ahmedabad, Gujarat",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.5",
+    "views": "14K",
+    "description": "Government Dental College and Hospital Ahmedabad is a premier dental institute in Gujarat.",
+    "details": {
+      "founded": 1963,
+      "courses": ["BDS", "MDS"],
+      "contact": "079-22682060",
+      "affiliation": "Gujarat University",
+      "cutoff": [{ "category": "General", "duration": "5 Years", "round": "NEET", "marks": "560" }]
+    }
+  },
+  {
+    "id": "sms-medical-jaipur",
+    "name": "SMS Medical College",
+    "state": "Rajasthan",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Jaipur, Rajasthan",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.7",
+    "views": "28K",
+    "description": "Sawai Man Singh Medical College is a government medical college in Jaipur, Rajasthan.",
+    "details": {
+      "founded": 1947,
+      "courses": ["MBBS", "MD", "MS"],
+      "contact": "0141-2560291",
+      "affiliation": "RUHS",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "665" }]
+    }
+  },
+  {
+    "id": "bits-pilani",
+    "name": "BITS Pilani",
+    "state": "Rajasthan",
+    "stream": "Engineering",
+    "type": "Private",
+    "location": "Pilani, Rajasthan",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.8",
+    "views": "38K",
+    "description": "BITS Pilani is a top-tier private technical university known for its flexible academic structure.",
+    "details": {
+      "founded": 1964,
+      "courses": ["B.E.", "M.E.", "M.Sc"],
+      "contact": "01596-245073",
+      "affiliation": "Deemed University",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "BITSAT", "marks": "320+" }]
+    }
+  },
+  {
+    "id": "kgmu-lucknow",
+    "name": "King George's Medical University",
+    "state": "Uttar Pradesh",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Lucknow, Uttar Pradesh",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.6",
+    "views": "30K",
+    "description": "KGMU is a historic medical university in Lucknow, offering world-class medical education.",
+    "details": {
+      "founded": 1911,
+      "courses": ["MBBS", "BDS", "Nursing"],
+      "contact": "0522-2257450",
+      "affiliation": "KGMU",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "660" }]
+    }
+  },
+  {
+    "id": "iit-kanpur",
+    "name": "IIT Kanpur",
+    "state": "Uttar Pradesh",
+    "stream": "Engineering",
+    "type": "Government",
+    "location": "Kanpur, Uttar Pradesh",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.9",
+    "views": "41K",
+    "description": "IIT Kanpur is known for its pioneering work in computer science education and research.",
+    "details": {
+      "founded": 1959,
+      "courses": ["B.Tech", "BS", "M.Tech"],
+      "contact": "0512-2590151",
+      "affiliation": "Autonomous",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "JEE Adv", "marks": "Top 250" }]
+    }
+  },
+  {
+    "id": "pmch-patna",
+    "name": "PMCH Patna",
+    "state": "Bihar",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Patna, Bihar",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.5",
+    "views": "20K",
+    "description": "Patna Medical College and Hospital is one of the oldest medical colleges in Asia.",
+    "details": {
+      "founded": 1925,
+      "courses": ["MBBS", "MD", "MS"],
+      "contact": "0612-2300080",
+      "affiliation": "AKU",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "645" }]
+    }
+  },
+  {
+    "id": "igims-patna",
+    "name": "IGIMS Patna",
+    "state": "Bihar",
+    "stream": "Nursing",
+    "type": "Government",
+    "location": "Patna, Bihar",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.4",
+    "views": "11K",
+    "description": "Indira Gandhi Institute of Medical Sciences offers excellent nursing and paramedical courses.",
+    "details": {
+      "founded": 1983,
+      "courses": ["B.Sc Nursing", "GNM"],
+      "contact": "0612-2297631",
+      "affiliation": "Autonomous",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "Entrance", "marks": "N/A" }]
+    }
+  },
+  {
+    "id": "medical-college-kolkata",
+    "name": "Medical College Kolkata",
+    "state": "West Bengal",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Kolkata, West Bengal",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.8",
+    "views": "27K",
+    "description": "Medical College Kolkata is the oldest medical college in India and Asia.",
+    "details": {
+      "founded": 1835,
+      "courses": ["MBBS", "MD", "MS"],
+      "contact": "033-22551621",
+      "affiliation": "WBUHS",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "675" }]
+    }
+  },
+  {
+    "id": "iit-kharagpur",
+    "name": "IIT Kharagpur",
+    "state": "West Bengal",
+    "stream": "Engineering",
+    "type": "Government",
+    "location": "Kharagpur, West Bengal",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.9",
+    "views": "43K",
+    "description": "IIT Kharagpur is the first IIT to be established and has the largest campus.",
+    "details": {
+      "founded": 1951,
+      "courses": ["B.Tech", "B.Arch", "M.Tech"],
+      "contact": "03222-255221",
+      "affiliation": "Autonomous",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "JEE Adv", "marks": "Top 300" }]
+    }
+  },
+  {
+    "id": "scb-cuttack",
+    "name": "SCB Medical College",
+    "state": "Odisha",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Cuttack, Odisha",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.6",
+    "views": "19K",
+    "description": "SCB Medical College is a premier medical institution in Odisha.",
+    "details": {
+      "founded": 1944,
+      "courses": ["MBBS", "BDS"],
+      "contact": "0671-2414355",
+      "affiliation": "Utkal University",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "640" }]
+    }
+  },
+  {
+    "id": "scb-dental-cuttack",
+    "name": "SCB Dental College",
+    "state": "Odisha",
+    "stream": "BDS",
+    "type": "Government",
+    "location": "Cuttack, Odisha",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.5",
+    "views": "9K",
+    "description": "The Dental Wing of SCB Medical College offers top-notch dental education.",
+    "details": {
+      "founded": 1944,
+      "courses": ["BDS", "MDS"],
+      "contact": "0671-2414355",
+      "affiliation": "Utkal University",
+      "cutoff": [{ "category": "General", "duration": "5 Years", "round": "NEET", "marks": "540" }]
+    }
+  },
+  {
+    "id": "gmc-patiala",
+    "name": "GMC Patiala",
+    "state": "Punjab",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Patiala, Punjab",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.5",
+    "views": "16K",
+    "description": "Government Medical College Patiala is one of the oldest medical colleges in Punjab.",
+    "details": {
+      "founded": 1953,
+      "courses": ["MBBS", "MD", "MS"],
+      "contact": "0175-2212018",
+      "affiliation": "BFUHS",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "635" }]
+    }
+  },
+  {
+    "id": "pgims-rohtak",
+    "name": "PGIMS Rohtak",
+    "state": "Haryana",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Rohtak, Haryana",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.6",
+    "views": "18K",
+    "description": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences is a major medical institution in Haryana.",
+    "details": {
+      "founded": 1960,
+      "courses": ["MBBS", "BDS", "B.Sc Nursing"],
+      "contact": "01262-211307",
+      "affiliation": "UHSR",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "645" }]
+    }
+  },
+  {
+    "id": "nit-kurukshetra",
+    "name": "NIT Kurukshetra",
+    "state": "Haryana",
+    "stream": "Engineering",
+    "type": "Government",
+    "location": "Kurukshetra, Haryana",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.6",
+    "views": "25K",
+    "description": "NIT Kurukshetra is an Institute of National Importance offering quality technical education.",
+    "details": {
+      "founded": 1963,
+      "courses": ["B.Tech", "M.Tech"],
+      "contact": "01744-233208",
+      "affiliation": "Autonomous",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "JEE Main", "marks": "Top 10000" }]
+    }
+  },
+  {
+    "id": "mgm-indore",
+    "name": "MGM Medical College",
+    "state": "Madhya Pradesh",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Indore, Madhya Pradesh",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.6",
+    "views": "21K",
+    "description": "Mahatma Gandhi Memorial Medical College is a prominent medical college in Indore.",
+    "details": {
+      "founded": 1948,
+      "courses": ["MBBS", "MD", "MS"],
+      "contact": "0731-2526546",
+      "affiliation": "DAVV",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "650" }]
+    }
+  },
+  {
+    "id": "aiims-rishikesh",
+    "name": "AIIMS Rishikesh",
+    "state": "Uttarakhand",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Rishikesh, Uttarakhand",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.8",
+    "views": "23K",
+    "description": "AIIMS Rishikesh is a medical college and hospital based in Rishikesh, Uttarakhand.",
+    "details": {
+      "founded": 2012,
+      "courses": ["MBBS", "B.Sc Nursing"],
+      "contact": "0135-2462927",
+      "affiliation": "Autonomous",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "680" }]
+    }
+  },
+  {
+    "id": "rims-ranchi",
+    "name": "RIMS Ranchi",
+    "state": "Jharkhand",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Ranchi, Jharkhand",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.5",
+    "views": "17K",
+    "description": "Rajendra Institute of Medical Sciences is an autonomous institute under the Government of Jharkhand.",
+    "details": {
+      "founded": 1960,
+      "courses": ["MBBS", "BDS"],
+      "contact": "0651-2541533",
+      "affiliation": "Ranchi University",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "635" }]
+    }
+  },
+  {
+    "id": "iit-dhanbad",
+    "name": "IIT Dhanbad",
+    "state": "Jharkhand",
+    "stream": "Engineering",
+    "type": "Government",
+    "location": "Dhanbad, Jharkhand",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.7",
+    "views": "28K",
+    "description": "IIT (ISM) Dhanbad is known for its mining and petroleum engineering programs.",
+    "details": {
+      "founded": 1926,
+      "courses": ["B.Tech", "M.Tech"],
+      "contact": "0326-2235001",
+      "affiliation": "Autonomous",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "JEE Adv", "marks": "Top 3000" }]
+    }
+  },
+  {
+    "id": "pt-jnm-raipur",
+    "name": "Pt JNM Medical College",
+    "state": "Chhattisgarh",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Raipur, Chhattisgarh",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.4",
+    "views": "15K",
+    "description": "Pt. Jawahar Lal Nehru Memorial Medical College is a state-run medical college in Raipur.",
+    "details": {
+      "founded": 1963,
+      "courses": ["MBBS", "MD", "MS"],
+      "contact": "0771-2523919",
+      "affiliation": "Ayush University",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "620" }]
+    }
+  },
+  {
+    "id": "gauhati-medical-college",
+    "name": "Gauhati Medical College",
+    "state": "Assam",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Guwahati, Assam",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.5",
+    "views": "16K",
+    "description": "Gauhati Medical College and Hospital is the premier medical institute in Assam.",
+    "details": {
+      "founded": 1960,
+      "courses": ["MBBS", "MD", "MS"],
+      "contact": "0361-2134538",
+      "affiliation": "Srimanta Sankaradeva University",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "625" }]
+    }
+  },
+  {
+    "id": "neigrihms-shillong",
+    "name": "NEIGRIHMS",
+    "state": "Meghalaya",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Shillong, Meghalaya",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.6",
+    "views": "12K",
+    "description": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences is a medical institute in Shillong.",
+    "details": {
+      "founded": 1987,
+      "courses": ["MBBS", "B.Sc Nursing"],
+      "contact": "0364-2538025",
+      "affiliation": "NEHU",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "630" }]
+    }
+  },
+  {
+    "id": "goa-medical-college",
+    "name": "Goa Medical College",
+    "state": "Goa",
+    "stream": "Medical",
+    "type": "Government",
+    "location": "Bambolim, Goa",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.5",
+    "views": "14K",
+    "description": "Goa Medical College is one of the oldest medical colleges in Asia.",
+    "details": {
+      "founded": 1842,
+      "courses": ["MBBS", "MD", "MS"],
+      "contact": "0832-2495000",
+      "affiliation": "Goa University",
+      "cutoff": [{ "category": "General", "duration": "5.5 Years", "round": "NEET", "marks": "615" }]
+    }
+  },
+  {
+    "id": "bits-goa",
+    "name": "BITS Pilani Goa Campus",
+    "state": "Goa",
+    "stream": "Engineering",
+    "type": "Private",
+    "location": "Zuarinagar, Goa",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.7",
+    "views": "22K",
+    "description": "BITS Pilani, K. K. Birla Goa Campus is a technical university campus located in Goa.",
+    "details": {
+      "founded": 2004,
+      "courses": ["B.E.", "M.E."],
+      "contact": "0832-2580101",
+      "affiliation": "Deemed University",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "BITSAT", "marks": "290+" }]
+    }
+  },
+  {
+    "id": "harvard-medical-school",
+    "name": "Harvard Medical School",
+    "state": "USA",
+    "stream": "Medical",
+    "type": "Abroad",
+    "location": "Boston, USA",
+    "image": "/topcolleges-bg.png",
+    "rating": "5.0",
+    "views": "100K",
+    "description": "Harvard Medical School is one of the most prestigious medical schools in the world.",
+    "details": {
+      "founded": 1782,
+      "courses": ["MD", "PhD"],
+      "contact": "+1 617-432-1000",
+      "affiliation": "Harvard University",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "MCAT", "marks": "518+" }]
+    }
+  },
+  {
+    "id": "oxford-university",
+    "name": "University of Oxford",
+    "state": "UK",
+    "stream": "Medical",
+    "type": "Abroad",
+    "location": "Oxford, UK",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.9",
+    "views": "90K",
+    "description": "The University of Oxford Medical School is a traditional medical school with a strong research focus.",
+    "details": {
+      "founded": 1096,
+      "courses": ["MBBS", "PhD"],
+      "contact": "+44 1865 270000",
+      "affiliation": "University of Oxford",
+      "cutoff": [{ "category": "General", "duration": "6 Years", "round": "BMAT", "marks": "High" }]
+    }
+  },
+  {
+    "id": "stanford-medicine",
+    "name": "Stanford Medicine",
+    "state": "USA",
+    "stream": "Medical",
+    "type": "Abroad",
+    "location": "Stanford, USA",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.9",
+    "views": "85K",
+    "description": "Stanford Medicine is a leader in the biomedical revolution, known for its innovation.",
+    "details": {
+      "founded": 1908,
+      "courses": ["MD", "PhD"],
+      "contact": "+1 650-723-4000",
+      "affiliation": "Stanford University",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "MCAT", "marks": "515+" }]
+    }
+  },
+  {
+    "id": "cambridge-medicine",
+    "name": "University of Cambridge",
+    "state": "UK",
+    "stream": "Medical",
+    "type": "Abroad",
+    "location": "Cambridge, UK",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.9",
+    "views": "88K",
+    "description": "Cambridge Medical School offers a world-class education with a focus on scientific principles.",
+    "details": {
+      "founded": 1209,
+      "courses": ["MBBS", "PhD"],
+      "contact": "+44 1223 337733",
+      "affiliation": "University of Cambridge",
+      "cutoff": [{ "category": "General", "duration": "6 Years", "round": "BMAT", "marks": "High" }]
+    }
+  },
+  {
+    "id": "toronto-medicine",
+    "name": "University of Toronto",
+    "state": "Canada",
+    "stream": "Medical",
+    "type": "Abroad",
+    "location": "Toronto, Canada",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.8",
+    "views": "70K",
+    "description": "The Temerty Faculty of Medicine at the University of Toronto is Canada's top medical school.",
+    "details": {
+      "founded": 1843,
+      "courses": ["MD"],
+      "contact": "+1 416-978-2011",
+      "affiliation": "University of Toronto",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "MCAT", "marks": "510+" }]
+    }
+  },
+  {
+    "id": "melbourne-medicine",
+    "name": "University of Melbourne",
+    "state": "Australia",
+    "stream": "Medical",
+    "type": "Abroad",
+    "location": "Melbourne, Australia",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.7",
+    "views": "65K",
+    "description": "Melbourne Medical School is the oldest medical school in Australia and is renowned for its research.",
+    "details": {
+      "founded": 1862,
+      "courses": ["MD"],
+      "contact": "+61 3 9035 5511",
+      "affiliation": "University of Melbourne",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "GAMSAT", "marks": "65+" }]
+    }
+  },
+  {
+    "id": "nus-medicine",
+    "name": "National University of Singapore",
+    "state": "Singapore",
+    "stream": "Medical",
+    "type": "Abroad",
+    "location": "Singapore",
+    "image": "/topcolleges-bg.png",
+    "rating": "4.8",
+    "views": "75K",
+    "description": "Yong Loo Lin School of Medicine at NUS is Asia's leading medical school.",
+    "details": {
+      "founded": 1905,
+      "courses": ["MBBS"],
+      "contact": "+65 6772 3737",
+      "affiliation": "NUS",
+      "cutoff": [{ "category": "General", "duration": "5 Years", "round": "FSA", "marks": "High" }]
+    }
+  },
+  {
+    "id": "mit-usa",
+    "name": "MIT",
+    "state": "USA",
+    "stream": "Engineering",
+    "type": "Abroad",
+    "location": "Cambridge, USA",
+    "image": "/topcolleges-bg.png",
+    "rating": "5.0",
+    "views": "120K",
+    "description": "Massachusetts Institute of Technology is a world leader in science and engineering education.",
+    "details": {
+      "founded": 1861,
+      "courses": ["B.S.", "M.S.", "PhD"],
+      "contact": "+1 617-253-1000",
+      "affiliation": "Private",
+      "cutoff": [{ "category": "General", "duration": "4 Years", "round": "SAT", "marks": "1500+" }]
+    }
+  }
+]

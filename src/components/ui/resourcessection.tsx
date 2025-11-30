@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
 
 export default function ResourcesSection() {
@@ -26,9 +27,12 @@ export default function ResourcesSection() {
                 Learn key factors to consider when selecting your dream MBBS college.
               </p>
 
-              <button className="mt-5 w-full border rounded-full py-3 flex items-center justify-center gap-2 hover:bg-gray-50 transition">
+              <Link
+                href="/blog?post=how-to-choose-medical-college"
+                className="mt-5 w-full border rounded-full py-3 flex items-center justify-center gap-2 hover:bg-gray-50 transition text-black"
+              >
                 Read More <FiArrowRight />
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -45,9 +49,12 @@ export default function ResourcesSection() {
                 Discover effective strategies to boost your NEET performance.
               </p>
 
-              <button className="mt-5 w-full border rounded-full py-3 flex items-center justify-center gap-2 hover:bg-gray-50 transition">
+              <Link
+                href="/blog?post=neet-exam-preparation-tips"
+                className="mt-5 w-full border rounded-full py-3 flex items-center justify-center gap-2 hover:bg-gray-50 transition text-black"
+              >
                 Read More <FiArrowRight />
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -64,9 +71,12 @@ export default function ResourcesSection() {
                 Build habits that help you stay ahead in your academic journey.
               </p>
 
-              <button className="mt-5 w-full border rounded-full py-3 flex items-center justify-center gap-2 hover:bg-gray-50 transition">
+              <Link
+                href="/blog?post=top-study-habits-for-success"
+                className="mt-5 w-full border rounded-full py-3 flex items-center justify-center gap-2 hover:bg-gray-50 transition text-black"
+              >
                 Read More <FiArrowRight />
-              </button>
+              </Link>
             </div>
           </div>
 

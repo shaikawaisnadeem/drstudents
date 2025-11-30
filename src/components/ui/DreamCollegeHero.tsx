@@ -1,11 +1,11 @@
-"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
 export default function CollegeHeroSection() {
   return (
     <section className="relative w-full overflow-hidden bg-[#0E1521] text-white font-poppins">
-      
+
       <div className="absolute inset-0">
         <Image
           src="/topcolleges-bg.png"
@@ -47,14 +47,14 @@ export default function CollegeHeroSection() {
           <Image
             src="/degreecap.png"
             alt="graduation"
-            width={600} 
+            width={600}
             priority
             height={400}
             className="opacity-90 object-contain w-full max-w-xs md:max-w-sm"
           />
         </div>
       </div>
-      <div 
+      <div
         className="absolute bottom-[-90px] left-0 w-full h-[180px] bg-white rounded-t-[50%] shadow-inner"
       >
       </div>
