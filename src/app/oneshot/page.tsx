@@ -1,14 +1,11 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import path from "path";
-import { promises as fs } from "fs";
 import { Metadata } from "next";
 import { FiUser, FiCalendar, FiPlayCircle } from "react-icons/fi";
+import oneshotsData from "@/data/oneshots.json";
 
 async function getOneShot(slug: string) {
-    const filePath = path.join(process.cwd(), "src", "data", "oneshots.json");
-    const fileContents = await fs.readFile(filePath, "utf8");
-    const oneshots = JSON.parse(fileContents);
+    const oneshots = oneshotsData;
     return oneshots.find((s: any) => s.slug === slug);
 }
 

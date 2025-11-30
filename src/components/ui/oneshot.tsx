@@ -1,11 +1,8 @@
 import VideoCard from "./VideoCard";
-import path from "path";
-import { promises as fs } from "fs";
+import oneshotsData from "@/data/oneshots.json";
 
 async function getOneShots() {
-  const filePath = path.join(process.cwd(), "src", "data", "oneshots.json");
-  const fileContents = await fs.readFile(filePath, "utf8");
-  const oneshots = JSON.parse(fileContents);
+  const oneshots = oneshotsData;
   return oneshots.slice(0, 6); // Show up to 6 items
 }
 

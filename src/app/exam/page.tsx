@@ -1,13 +1,10 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import path from "path";
-import { promises as fs } from "fs";
 import { Metadata } from "next";
+import examCategoriesData from "@/data/examCategories.json";
 
 async function getCategory(slug: string) {
-    const filePath = path.join(process.cwd(), "src", "data", "examCategories.json");
-    const fileContents = await fs.readFile(filePath, "utf8");
-    const categories = JSON.parse(fileContents);
+    const categories = examCategoriesData;
     return categories.find((c: any) => c.slug === slug);
 }
 

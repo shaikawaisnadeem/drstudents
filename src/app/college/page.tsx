@@ -1,13 +1,10 @@
 import CollegeDetails from "@/components/ui/clgDetails";
 import { notFound } from "next/navigation";
-import path from "path";
-import { promises as fs } from "fs";
 import { Metadata } from "next";
+import collegesData from "@/data/colleges.json";
 
 async function getCollege(id: string) {
-    const filePath = path.join(process.cwd(), "src", "data", "colleges.json");
-    const fileContents = await fs.readFile(filePath, "utf8");
-    const colleges = JSON.parse(fileContents);
+    const colleges = collegesData;
     return colleges.find((c: any) => c.id === id);
 }
 

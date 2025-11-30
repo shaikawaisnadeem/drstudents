@@ -1,13 +1,10 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import path from "path";
-import { promises as fs } from "fs";
 import { Metadata } from "next";
+import blogsData from "@/data/blogs.json";
 
 async function getBlogPost(slug: string) {
-    const filePath = path.join(process.cwd(), "src", "data", "blogs.json");
-    const fileContents = await fs.readFile(filePath, "utf8");
-    const blogs = JSON.parse(fileContents);
+    const blogs = blogsData;
     return blogs.find((b: any) => b.slug === slug);
 }
 

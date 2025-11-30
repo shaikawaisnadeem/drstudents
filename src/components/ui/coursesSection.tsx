@@ -1,11 +1,8 @@
 import CourseCard from "./CourseCard";
-import path from "path";
-import { promises as fs } from "fs";
+import coursesData from "@/data/courses.json";
 
 async function getCourses() {
-  const filePath = path.join(process.cwd(), "src", "data", "courses.json");
-  const fileContents = await fs.readFile(filePath, "utf8");
-  const courses = JSON.parse(fileContents);
+  const courses = coursesData;
   return courses.filter((c: any) => c.category === "neet-class-11").slice(0, 6);
 }
 

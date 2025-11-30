@@ -1,15 +1,12 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import path from "path";
-import { promises as fs } from "fs";
 import { Metadata } from "next";
 import { FiUser, FiCalendar, FiClock, FiCheckCircle } from "react-icons/fi";
 import HelpActions from "@/components/ui/help-actions";
+import coursesData from "@/data/courses.json";
 
 async function getCourse(slug: string) {
-    const filePath = path.join(process.cwd(), "src", "data", "courses.json");
-    const fileContents = await fs.readFile(filePath, "utf8");
-    const courses = JSON.parse(fileContents);
+    const courses = coursesData;
     return courses.find((c: any) => c.slug === slug);
 }
 

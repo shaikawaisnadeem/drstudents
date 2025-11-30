@@ -1,10 +1,9 @@
 import Image from "next/image";
 import SelectState from "@/components/ui/SelectState";
 import TopColleges from "@/components/ui/TopColleges";
-import path from "path";
-import { promises as fs } from "fs";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
+import collegesData from "@/data/colleges.json";
 
 export const metadata: Metadata = {
   title: "Study Abroad Colleges | DRStudents",
@@ -12,9 +11,7 @@ export const metadata: Metadata = {
 };
 
 async function getColleges(searchParams: { [key: string]: string | string[] | undefined }) {
-  const filePath = path.join(process.cwd(), "src", "data", "colleges.json");
-  const fileContents = await fs.readFile(filePath, "utf8");
-  const colleges = JSON.parse(fileContents);
+  const colleges = collegesData;
 
   const state = typeof searchParams.state === 'string' ? searchParams.state : undefined;
   const stream = typeof searchParams.stream === 'string' ? searchParams.stream : undefined;
